@@ -1,4 +1,20 @@
-baseURL = "http://localhost"
+baseURL = "http://lab.localhost"
 languageCode = "es-es"
 title = "Turistificación en Madrid"
 theme = "learn"
+[params]
+  themeVariant = "eamadrid"
+  disableSearch = true
+  disableShortcutsTitle=true
+
+[[menu.shortcuts]] 
+name = "<i class='fa fa-bookmark'></i> Documentación (Wiki)"
+identifier = "wiki"
+url = "https://wiki.montera34.com/airbnb/datos-turistificacion-madrid-jpd18"
+weight = 10
+
+[[menu.shortcuts]] 
+name = "<i class='fa fa-envelope'></i> Contacto"
+identifier = "contact"
+url = "https://lab.montera34.com/airbnb"
+weight = 10
