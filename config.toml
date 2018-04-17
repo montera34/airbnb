@@ -1,0 +1,4 @@
+baseURL = "http://localhost"
+languageCode = "es-es"
+title = "Turistificación en Madrid"
+theme = "learn"
