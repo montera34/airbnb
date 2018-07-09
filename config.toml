@@ -22,19 +22,19 @@ theme = "learn"
   disableShortcutsTitle=true
 
 [[menu.shortcuts]] 
-name = "<i class='fa fa-bookmark'></i> Documenación (Wiki)"
+name = "Documenación (Wiki)"
 identifier = "wiki"
 url = "https://wiki.montera34.com/airbnb/datos-turistificacion-madrid-jpd18"
 weight = 10
 
 [[menu.shortcuts]] 
-name = "<i class='fa fa-envelope'></i> Contacto"
+name = "Contacto"
 identifier = "contact"
 url = "https://montera34.com/contacto"
 weight = 10
 
 [[menu.shortcuts]] 
-name = "<i class='fa fa-envelope'></i> Newsletter"
+name = "Newsletter"
 identifier = "newsletter"
 url = "https://montera34.com/suscribete"
 weight = 10

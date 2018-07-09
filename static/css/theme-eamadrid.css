@@ -17,8 +17,8 @@
     --MENU-SECTIONS-ACTIVE-BG-color:#20272b; /* Background color of the active section and its childs */
     --MENU-SECTIONS-BG-color:#252c31; /* Background color of other sections */
     --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
+    --MENU-SECTIONS-LINK-HOVER-color: #fff100;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #252c31; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
@@ -26,6 +26,7 @@
     
 }
 
+/* COLORS */
 body {
     color: var(--MAIN-TEXT-color) !important;
 }
@@ -102,3 +103,22 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+#header a { color: var(--MENU-HEADER-BORDER-color); }
+/* end COLORS*/
+
+
+#header { text-align: left; text-transform: uppercase; }
+#footer p { margin-bottom: 10px; }
+
+#chapter h1 {
+	line-height: 1em;
+}
+
+#sidebar ul.topics > li > a {
+	line-height: 1.2rem;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+#sidebar ul li > a {
+	padding: 6px 0;
+}
