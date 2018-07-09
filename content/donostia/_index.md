@@ -6,9 +6,9 @@ chapter = true
 pre = ""
 +++
 
-### Efecto Airbnb
+### 14 de julio de 2017. Versión 2.0
 
-# Donostia
+# Efecto Airnbnb en Donostia
 
 Este informe es una iniciativa conjunta de <a href="https://montera34.com">Montera34</a> y el laboratorio de cultura digital y tecnología <a href="https://www.tabakalera.eu/es/hirikilabs-laboratorio-de-cultura-digital-y-tecnologia">Hirikilabs</a> de <a href="https://tabakalera.eu/">Tabakalera</a>.
 

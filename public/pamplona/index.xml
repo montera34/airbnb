@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pamplona-Iruña on Efecto Airbnb</title>
+    <link>/airbnb/pamplona/</link>
+    <description>Recent content in Pamplona-Iruña on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 09 Jul 2018 10:25:20 +0200</lastBuildDate>
+    
+	<atom:link href="/airbnb/pamplona/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
