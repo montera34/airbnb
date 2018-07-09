@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/airbnb/pamplona/informe/</loc>
+    <lastmod>2018-07-09T12:29:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/airbnb/donostia/informe/</loc>
     <lastmod>2018-07-09T10:23:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/pamplona/datos/</loc>
+    <lastmod>2018-07-09T12:29:27+02:00</lastmod>
   </url>
   
   <url>
@@ -25,6 +35,11 @@
   <url>
     <loc>/airbnb/pamplona/</loc>
     <lastmod>2018-07-09T11:55:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/pamplona/tipo-alojamiento/</loc>
+    <lastmod>2018-07-09T13:19:12+02:00</lastmod>
   </url>
   
   <url>
