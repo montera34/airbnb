@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Turistificación en Madrid</title>
-    <link>http://lab.localhost/</link>
-    <description>Recent content on Turistificación en Madrid</description>
+    <title>Efecto Airbnb</title>
+    <link>/airbnb/</link>
+    <description>Recent content on Efecto Airbnb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
+    <lastBuildDate>Tue, 17 Apr 2018 19:31:18 +0200</lastBuildDate>
     
-	<atom:link href="http://lab.localhost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/airbnb/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

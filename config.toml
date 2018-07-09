@@ -1,6 +1,20 @@
-baseURL = "http://lab.localhost"
+baseURL = "/airbnb"
 languageCode = "es-es"
-title = "Turistificación en Madrid"
+defaultContentLanguage = "es"
+title = "Efecto Airbnb"
+canonifyURLs = true
+relativeURLs = true
+enableRobotsTXT = true
+enableGitInfo = true
+
+footnoteReturnLinkContents = "↩"
+
+#[frontmatter]
+#  date = ["date","publishDate", "lastmod"]
+#  lastmod = [":git", "lastmod", "date","publishDate"]
+#  publishDate = ["publishDate", "date#"]
+#  expiryDate = ["expiryDate"]
+
 theme = "learn"
 [params]
   themeVariant = "eamadrid"
@@ -8,7 +22,7 @@ theme = "learn"
   disableShortcutsTitle=true
 
 [[menu.shortcuts]] 
-name = "<i class='fa fa-bookmark'></i> Documentación (Wiki)"
+name = "<i class='fa fa-bookmark'></i> Documenación (Wiki)"
 identifier = "wiki"
 url = "https://wiki.montera34.com/airbnb/datos-turistificacion-madrid-jpd18"
 weight = 10
@@ -16,5 +30,11 @@ weight = 10
 [[menu.shortcuts]] 
 name = "<i class='fa fa-envelope'></i> Contacto"
 identifier = "contact"
-url = "https://lab.montera34.com/airbnb"
+url = "https://montera34.com/contacto"
+weight = 10
+
+[[menu.shortcuts]] 
+name = "<i class='fa fa-envelope'></i> Newsletter"
+identifier = "newsletter"
+url = "https://montera34.com/suscribete"
 weight = 10

@@ -3,16 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://lab.localhost/</loc>
+    <loc>/airbnb/talleres/</loc>
+    <lastmod>2018-04-16T09:51:01+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://lab.localhost/categories/</loc>
+    <loc>/airbnb/metodologia/</loc>
+    <lastmod>2018-04-16T10:13:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/donostia/</loc>
+    <lastmod>2018-07-08T23:37:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/</loc>
+    <lastmod>2018-04-17T19:31:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://lab.localhost/tags/</loc>
+    <loc>/airbnb/tags/</loc>
     <priority>0</priority>
   </url>
   

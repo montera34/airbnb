@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Explorar, prototipar, documentar on Efecto Airbnb</title>
+    <link>/airbnb/metodologia/</link>
+    <description>Recent content in Explorar, prototipar, documentar on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 16 Apr 2018 10:13:13 +0200</lastBuildDate>
+    
+	<atom:link href="/airbnb/metodologia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basics on Turistificación en Madrid</title>
-    <link>http://lab.localhost/basics/</link>
-    <description>Recent content in Basics on Turistificación en Madrid</description>
+    <title>Talleres de producción colaborativa on Efecto Airbnb</title>
+    <link>/airbnb/basics/</link>
+    <description>Recent content in Talleres de producción colaborativa on Efecto Airbnb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 16 Apr 2018 09:51:01 +0200</lastBuildDate>
     
-	<atom:link href="http://lab.localhost/basics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/airbnb/basics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Metodología</title>
+      <link>/airbnb/basics/first-content/</link>
+      <pubDate>Mon, 16 Apr 2018 10:13:13 +0200</pubDate>
+      
+      <guid>/airbnb/basics/first-content/</guid>
+      <description>Explorar, prototipar, documentar La reciente aparición de plataformas de alquiler de alojamientos peer to peer tipo Airbnb está provocando rápidos cambios de uso en los centros urbanos de mayor atractivo turístico que requieren de un análisis riguroso para permitir su regulación urbanística.
+El objetivo de los talleres Efecto Airbnb es aprender a usar herramientas de obtención, limpieza y análisis de datos para producir un informe que ayude a entender el impacto de Airbnb y otras plataformas de alquiler de alojamientos turísticos.</description>
+    </item>
     
   </channel>
 </rss>
