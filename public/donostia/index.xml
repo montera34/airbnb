@@ -11,5 +11,14 @@
 	<atom:link href="/airbnb/donostia/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>¿De dónde sale este informe?</title>
+      <link>/airbnb/donostia/informe/</link>
+      <pubDate>Mon, 09 Jul 2018 10:06:03 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/informe/</guid>
+      <description>La primera versión de este informe se publicó con los análisis producidos colaborativamente durante el taller Maps&amp;amp;data: El efecto Airbnb en datos en abril de 2017. Esta segunda versión se ha producido en julio de 2017, tras dos días de trabajo en el encuentro Summerlab&amp;rsquo;17 organizado en Donostia por Hirikilabs. Durante estos días se trabajó una base de datos más completa, actualizando las visualizaciones de la primera versión, y añadiendo nuevos análisis.</description>
+    </item>
+    
   </channel>
 </rss>
