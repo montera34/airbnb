@@ -1,0 +1,7 @@
+<div class="vis-doc">
+	<a class="vis-btn" href="{{ .Get "doc-url" }}">Documentación y metodología</a><br>
+	{{ with .Get "data-url" }}<a href="{{.}}">{{ end }}
+	{{ with .Get "data-date" }}<span class="vis-src">Datos {{.}}</span>{{ else }}<span class="vis-src">Datos</span>{{ end }}
+	{{ with .Get "data-url" }}</a>{{ end }}
+	{{ with .Get "data-comments" }} <span class="vis-comments">({{.}})</span>{{ end }}
+</div>

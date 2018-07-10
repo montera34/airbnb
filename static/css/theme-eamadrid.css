@@ -142,3 +142,51 @@ h1 {
 	line-height: 1.2rem;
 	padding-top: 4px;
 }
+/* featured shortcode */
+.vis-featured {
+	background-color: #fd5;
+	padding: 5px 10px;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	line-height: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+/* cols shortcodes */
+.ea-cols {
+	margin: 1rem auto;
+}
+.ea-col { float: left; position: relative; min-height: 1px; padding: 10px;}
+.ea-col-1 { 8.3333333%; }
+.ea-col-2 { width: 16.6666667%; }
+.ea-col-3 { width: 25%; }
+.ea-col-4 { width: 33.3333333%; }
+.ea-col-5 { width: 41.6666667%; }
+.ea-col-6 { width: 50%; }
+.ea-col-7 { width: 58.3333333%; }
+.ea-col-8 { width: 66.6666667%; }
+.ea-col-9 { width: 75%; }
+.ea-col-10 { width: 83.3333333%; }
+.ea-col-11 { width: 91.6666667%; }
+.ea-col-12 { width: 100%; }
+
+/* documentation shortcode */
+.vis-doc {
+	font-size: 0.85rem;
+	text-align: center;
+}
+.vis-btn {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.vis-btn:hover {
+	border-color: var(--MAIN-LINK-HOVER-color);
+}
+.vis-src a {
+	color: #000;
+}
+

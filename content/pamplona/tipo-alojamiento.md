@@ -4,6 +4,13 @@ date: 2018-07-09T13:19:12+02:00
 draft: false
 ---
 
+{{< docdata doc-url="https://wiki.montera34.com/como-se-concentra-la-oferta-por-barrios-de-airbnb" data-url="https://github.com/numeroteca/airbnbnavarra/blob/master/data/original/171002_airbnb_apartments-navarra_datahippo.csv" data-date="octubre 2017" data-comments="738 anuncios" >}}
+
+{{< cols >}}
+{{< col 5 >}}{{% featured %}}En Pamplona-Iruña hay 738 alojamientos anunciados en Airbnb.{{% /featured %}}{{< /col >}}
+{{< col 7 >}}{{< featured >}}el 43% son viviendas completas,<br>el 51% habitaciones privadas,<br>el 6% habitaciones compartidas{{< /featured >}}{{< /col >}}
+{{< /cols >}}
+
 {{< carto "https://skotperez.carto.com/builder/59f575ff-599c-492c-8809-934da8739f94/embed" >}}<a href="https://skotperez.carto.com/builder/59f575ff-599c-492c-8809-934da8739f94/embed">Ver mapa por tipo de alojamiento a pantalla completai</a>). Si pasas el cursor por encima de los puntos puedes ver las características de cada uno.
 {{< /carto >}}
 
