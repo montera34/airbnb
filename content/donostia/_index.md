@@ -6,7 +6,7 @@ chapter = true
 pre = ""
 +++
 
-### 14 de julio de 2017. Versión 2.0
+### 13 de julio de 2018. Versión 3.0
 
 # Efecto Airnbnb en Donostia
 

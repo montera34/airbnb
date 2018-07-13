@@ -27,7 +27,16 @@ El taller estuvo coordinado por Montera34, usando una metodología que permite a
       <pubDate>Mon, 09 Jul 2018 10:06:03 +0200</pubDate>
       
       <guid>/airbnb/donostia/informe/</guid>
-      <description>La primera versión de este informe se publicó con los análisis producidos colaborativamente durante el taller Maps&amp;amp;data: El efecto Airbnb en datos en abril de 2017. Esta segunda versión se ha producido en julio de 2017, tras dos días de trabajo en el encuentro Summerlab&amp;rsquo;17 organizado en Donostia por Hirikilabs. Durante estos días se trabajó una base de datos más completa, actualizando las visualizaciones de la primera versión, y añadiendo nuevos análisis.</description>
+      <description>La primera versión de este informe se publicó con los análisis producidos colaborativamente durante el taller Maps&amp;amp;data: El efecto Airbnb en datos en abril de 2017. La segunda versión se produjo en julio de 2017, tras dos días de trabajo en el encuentro Summerlab&amp;rsquo;17 organizado en Donostia por Hirikilabs. Durante estos días se trabajó una base de datos más completa, actualizando las visualizaciones de la primera versión, y añadiendo nuevos análisis.</description>
+    </item>
+    
+    <item>
+      <title>Ordenanza municipal reguladora del uso de la vivienda turística</title>
+      <link>/airbnb/donostia/ordenanza-2018/</link>
+      <pubDate>Fri, 13 Jul 2018 09:55:06 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/ordenanza-2018/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -38,6 +47,15 @@ El taller estuvo coordinado por Montera34, usando una metodología que permite a
       <guid>/airbnb/pamplona/datos/</guid>
       <description>Los datos utilizados para este informe se han obtenido a partir de los datos de Airbnb de Navarra de Datahippo calculando los alojamientos que estaban ubicados dentro del límite municipal de Pamplona-Iruña.
    Autoría Fecha Localización Técnica Nº anuncios URL     Datahippo (S. Espinosa) Hasta 2/10/2017 Navarra Web scraping 738 Descarga    También se pueden consultar y descargar otros datos utilizados en este informe: datos de población y vivienda por barrios, contornos de los barrios, establecimientos turísticos.</description>
+    </item>
+    
+    <item>
+      <title>Los datos</title>
+      <link>/airbnb/donostia/datos/</link>
+      <pubDate>Fri, 13 Jul 2018 09:57:44 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/datos/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -53,6 +71,15 @@ el 6% habitaciones compartidas       Distribución geoespacial de anuncios Airbn
     </item>
     
     <item>
+      <title>Viviendas de uso turístico. ¿Cuántas viviendas se han registrado en la nueva ordenanza?</title>
+      <link>/airbnb/donostia/viviendas-uso-turistico/</link>
+      <pubDate>Fri, 13 Jul 2018 09:59:54 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/viviendas-uso-turistico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Alojamientos por barrio</title>
       <link>/airbnb/pamplona/alojamientos-barrio/</link>
       <pubDate>Tue, 10 Jul 2018 19:58:29 +0200</pubDate>
@@ -61,6 +88,51 @@ el 6% habitaciones compartidas       Distribución geoespacial de anuncios Airbn
       <description>Documentación y metodología
 Datos octubre 2017  (738 anuncios)  Para entender dónde y cómo se ubican los alojamientos de Airbnb en una ciudad la escala del barrio parece ser adecuada para poder analizar cómo se distribuyen y su densidad.
 Distribución El 33% de los alojamientos de Airbnb en Pamplona-Iruña están en el Casco Viejo (245 anuncios) y supone un 42% de las plazas (1.168).   Entre el Casco Viejo y el Ensanche se localizan el 50% de la oferta total de alojamientos con 369 anuncios y el 58% de las plazas (1.</description>
+    </item>
+    
+    <item>
+      <title>Registros en la Ordenanza municipal vs. anuncios Airbnb</title>
+      <link>/airbnb/donostia/ordenanza-municipal-airbnb/</link>
+      <pubDate>Fri, 13 Jul 2018 10:02:00 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/ordenanza-municipal-airbnb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alojamientos Airbnb por barrio</title>
+      <link>/airbnb/donostia/airbnb-alojamientos-barrio/</link>
+      <pubDate>Fri, 13 Jul 2018 10:04:21 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/airbnb-alojamientos-barrio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plazas ofertadas en Airbnb por barrio</title>
+      <link>/airbnb/donostia/airbnb-plazas-barrio/</link>
+      <pubDate>Fri, 13 Jul 2018 10:09:18 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/airbnb-plazas-barrio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolución de alojamientos y plazas Airbnb por barrio entre abril de 2017 y abril de 2018</title>
+      <link>/airbnb/donostia/airbnb-evolucion-barrio/</link>
+      <pubDate>Fri, 13 Jul 2018 10:14:55 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/airbnb-evolucion-barrio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolución de precios del alquiler residencial</title>
+      <link>/airbnb/donostia/alquiler-residencial/</link>
+      <pubDate>Fri, 13 Jul 2018 10:17:31 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/alquiler-residencial/</guid>
+      <description></description>
     </item>
     
   </channel>
