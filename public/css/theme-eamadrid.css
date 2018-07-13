@@ -144,9 +144,9 @@ h1 {
 }
 /* featured shortcode */
 .vis-featured {
-	background-color: #fd5;
+	background-color: var(--MENU-HEADER-BG-color);
 	padding: 5px 10px;
-	font-size: 1.3em;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 	line-height: 1.5rem;
 	margin-bottom: 1rem;
@@ -190,3 +190,18 @@ h1 {
 	color: #000;
 }
 
+/* figure shortcode */
+figcaption h4 {
+	font-size: 0.9rem;
+	margin-top: -2.5rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+figcaption p {
+	font-weight: 300 !important;
+	opacity: .85;
+	font-size: 0.9rem;
+	margin-top: 0;
+	line-height: 1.2rem;
+	text-align: center;
+}
