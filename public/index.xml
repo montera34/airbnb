@@ -59,35 +59,12 @@ El taller estuvo coordinado por Montera34, usando una metodología que permite a
     </item>
     
     <item>
-      <title>Tipos de alojamiento</title>
-      <link>/airbnb/pamplona/tipo-alojamiento/</link>
-      <pubDate>Mon, 09 Jul 2018 13:19:12 +0200</pubDate>
-      
-      <guid>/airbnb/pamplona/tipo-alojamiento/</guid>
-      <description>Documentación y metodología
-Datos octubre 2017  (738 anuncios)  En Pamplona-Iruña hay 738 alojamientos anunciados en Airbnb.   el 43% son viviendas completas,
-el 51% habitaciones privadas,
-el 6% habitaciones compartidas       Distribución geoespacial de anuncios Airbnb por tipo de alojamiento  Pincha en la imagen para ver el mapa interactivo a pantalla completa.   Esta sección muestra la cantidad de alojamientos de Airbnb en Pamplona-Iruña por tipo.</description>
-    </item>
-    
-    <item>
       <title>Viviendas de uso turístico. ¿Cuántas viviendas se han registrado en la nueva ordenanza?</title>
       <link>/airbnb/donostia/viviendas-uso-turistico/</link>
       <pubDate>Fri, 13 Jul 2018 09:59:54 +0200</pubDate>
       
       <guid>/airbnb/donostia/viviendas-uso-turistico/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Alojamientos por barrio</title>
-      <link>/airbnb/pamplona/alojamientos-barrio/</link>
-      <pubDate>Tue, 10 Jul 2018 19:58:29 +0200</pubDate>
-      
-      <guid>/airbnb/pamplona/alojamientos-barrio/</guid>
-      <description>Documentación y metodología
-Datos octubre 2017  (738 anuncios)  Para entender dónde y cómo se ubican los alojamientos de Airbnb en una ciudad la escala del barrio parece ser adecuada para poder analizar cómo se distribuyen y su densidad.
-Distribución El 33% de los alojamientos de Airbnb en Pamplona-Iruña están en el Casco Viejo (245 anuncios) y supone un 42% de las plazas (1.168).   Entre el Casco Viejo y el Ensanche se localizan el 50% de la oferta total de alojamientos con 369 anuncios y el 58% de las plazas (1.</description>
     </item>
     
     <item>
@@ -133,6 +110,24 @@ Distribución El 33% de los alojamientos de Airbnb en Pamplona-Iruña están en 
       
       <guid>/airbnb/donostia/alquiler-residencial/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Densidad de anuncios Airbnb por unidad de superficie</title>
+      <link>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</link>
+      <pubDate>Tue, 11 Sep 2018 18:10:44 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</guid>
+      <description>Densidad de anuncios Airbnb por unidad de superfie  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+    <item>
+      <title>Distribución geoespacial de anuncios Airbnb por tipo de alojamiento</title>
+      <link>/airbnb/pamplona/tipo-alojamiento/anuncios-airbnb/</link>
+      <pubDate>Tue, 11 Sep 2018 17:55:10 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/tipo-alojamiento/anuncios-airbnb/</guid>
+      <description>Distribución geoespacial de anuncios Airbnb por tipo de alojamiento.  Ver el mapa interactivo a pantalla completa.</description>
     </item>
     
   </channel>

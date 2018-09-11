@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tipos de alojamiento on Efecto Airbnb</title>
+    <link>/airbnb/pamplona/tipo-alojamiento/</link>
+    <description>Recent content in Tipos de alojamiento on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 09 Jul 2018 13:19:12 +0200</lastBuildDate>
+    
+	<atom:link href="/airbnb/pamplona/tipo-alojamiento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Distribución geoespacial de anuncios Airbnb por tipo de alojamiento</title>
+      <link>/airbnb/pamplona/tipo-alojamiento/anuncios-airbnb/</link>
+      <pubDate>Tue, 11 Sep 2018 17:55:10 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/tipo-alojamiento/anuncios-airbnb/</guid>
+      <description>Distribución geoespacial de anuncios Airbnb por tipo de alojamiento.  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+  </channel>
+</rss>

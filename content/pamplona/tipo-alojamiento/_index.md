@@ -12,7 +12,7 @@ draft: false
 {{< col 7 >}}{{< featured >}}el 43% son viviendas completas,<br>el 51% habitaciones privadas,<br>el 6% habitaciones compartidas{{< /featured >}}{{< /col >}}
 {{< /cols >}}
 
-{{% figure src="/images/pamplona.tipo.anuncios.png" alt="Distribución geoespacial de anuncios Airbnb por tipo de alojamiento" title="Distribución geoespacial de anuncios Airbnb por tipo de alojamiento" link="https://skotperez.carto.com/builder/59f575ff-599c-492c-8809-934da8739f94/embed" caption="Pincha en la imagen para ver el mapa interactivo a pantalla completa." %}}
+{{% figure src="/images/pamplona.tipo.anuncios.png" alt="Distribución geoespacial de anuncios Airbnb por tipo de alojamiento" title="" link="./map" caption="Pincha en la imagen para ver el mapa interactivo." %}}
 
 Esta sección muestra la cantidad de alojamientos de Airbnb en Pamplona-Iruña por tipo. **Aproximadamente un 40% son viviendas completas, el resto habitaciones.** Es un valor bajo si lo comparamos con Donostia-San Sebastián, donde el 74% de los alojamientos son viviendas completas ([ver informe Efecto Airbnb Donostia-San Sebastián](https://lab.montera34.com/airbnb/donostia/index.html#tipo-alojamiento)).
 

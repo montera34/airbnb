@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alojamientos por barrio on Efecto Airbnb</title>
+    <link>/airbnb/pamplona/alojamientos-barrio/</link>
+    <description>Recent content in Alojamientos por barrio on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 10 Jul 2018 19:58:29 +0200</lastBuildDate>
+    
+	<atom:link href="/airbnb/pamplona/alojamientos-barrio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Densidad de anuncios Airbnb por unidad de superficie</title>
+      <link>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</link>
+      <pubDate>Tue, 11 Sep 2018 18:10:44 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</guid>
+      <description>Densidad de anuncios Airbnb por unidad de superfie  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+  </channel>
+</rss>

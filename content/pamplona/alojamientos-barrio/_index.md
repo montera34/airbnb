@@ -20,4 +20,4 @@ Espacialmente se observa una mayor concentración de alojamientos en el centro (
 {{< /col >}}
 {{< /cols >}}
 
-{{% figure src="/images/pamplona.densidad.anuncios.superficie.png" alt="Densidad de anuncios Airbnb por unidad de superfie" title="Densidad de anuncios Airbnb por unidad de superfie" link="https://numeroteca.carto.com/builder/9d8ae950-b22a-4809-b20b-48e6f15c0efb/embed" caption="Pincha en la imagen para ver el mapa interactivo a pantalla completa." %}}
+{{% figure src="/images/pamplona.densidad.anuncios.superficie.png" alt="Densidad de anuncios Airbnb por unidad de superfie" title="Densidad de anuncios Airbnb por unidad de superfie" link="densidad-anuncios-airbnb" caption="Pincha en la imagen para ver el mapa interactivo a pantalla completa." %}}
