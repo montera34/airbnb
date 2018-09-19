@@ -20,5 +20,14 @@
       <description>Densidad de anuncios Airbnb por unidad de superfie  Ver el mapa interactivo a pantalla completa.</description>
     </item>
     
+    <item>
+      <title>Cartograma de número de alojamientos de Airbnb por número de viviendas por barrio</title>
+      <link>/airbnb/pamplona/alojamientos-barrio/anuncios-airbnb-cartograma/</link>
+      <pubDate>Wed, 19 Sep 2018 15:10:34 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/alojamientos-barrio/anuncios-airbnb-cartograma/</guid>
+      <description>Número de alojamientos de Airbnb por número de viviendas por barrio  En este cartograma cada barrio está representado por un cuadrado: su área representa la cantidad de viviendas que hay en él y el color es más o menos intenso dependiendo del número de alojamientos de Airbnb que hay respecto al número de viviendas. De este modo evitamos uno de los problemas típicos de muchos mapas que sobrerepresentan a regiones que son poco relevantes pero que son muy extensas.</description>
+    </item>
+    
   </channel>
 </rss>

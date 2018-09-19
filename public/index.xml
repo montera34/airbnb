@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Densidad de anuncios Airbnb por unidad de superficie</title>
+      <link>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</link>
+      <pubDate>Tue, 11 Sep 2018 18:10:44 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</guid>
+      <description>Densidad de anuncios Airbnb por unidad de superfie  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+    <item>
       <title>¿De dónde sale este informe?</title>
       <link>/airbnb/pamplona/informe/</link>
       <pubDate>Mon, 09 Jul 2018 12:29:20 +0200</pubDate>
@@ -28,6 +37,15 @@ El taller estuvo coordinado por Montera34, usando una metodología que permite a
       
       <guid>/airbnb/donostia/informe/</guid>
       <description>La primera versión de este informe se publicó con los análisis producidos colaborativamente durante el taller Maps&amp;amp;data: El efecto Airbnb en datos en abril de 2017. La segunda versión se produjo en julio de 2017, tras dos días de trabajo en el encuentro Summerlab&amp;rsquo;17 organizado en Donostia por Hirikilabs. Durante estos días se trabajó una base de datos más completa, actualizando las visualizaciones de la primera versión, y añadiendo nuevos análisis.</description>
+    </item>
+    
+    <item>
+      <title>Cartograma de número de alojamientos de Airbnb por número de viviendas por barrio</title>
+      <link>/airbnb/pamplona/alojamientos-barrio/anuncios-airbnb-cartograma/</link>
+      <pubDate>Wed, 19 Sep 2018 15:10:34 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/alojamientos-barrio/anuncios-airbnb-cartograma/</guid>
+      <description>Número de alojamientos de Airbnb por número de viviendas por barrio  En este cartograma cada barrio está representado por un cuadrado: su área representa la cantidad de viviendas que hay en él y el color es más o menos intenso dependiendo del número de alojamientos de Airbnb que hay respecto al número de viviendas. De este modo evitamos uno de los problemas típicos de muchos mapas que sobrerepresentan a regiones que son poco relevantes pero que son muy extensas.</description>
     </item>
     
     <item>
@@ -110,15 +128,6 @@ El taller estuvo coordinado por Montera34, usando una metodología que permite a
       
       <guid>/airbnb/donostia/alquiler-residencial/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Densidad de anuncios Airbnb por unidad de superficie</title>
-      <link>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</link>
-      <pubDate>Tue, 11 Sep 2018 18:10:44 +0200</pubDate>
-      
-      <guid>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</guid>
-      <description>Densidad de anuncios Airbnb por unidad de superfie  Ver el mapa interactivo a pantalla completa.</description>
     </item>
     
     <item>
