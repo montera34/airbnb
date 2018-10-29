@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concentración de alojamientos Airbnb por anfitrion on Efecto Airbnb</title>
+    <link>/airbnb/pamplona/alojamientos-airbnb-anfitrion/</link>
+    <description>Recent content in Concentración de alojamientos Airbnb por anfitrion on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 20 Sep 2018 15:09:59 +0200</lastBuildDate>
+    
+	<atom:link href="/airbnb/pamplona/alojamientos-airbnb-anfitrion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Distribución espacial de alojamientos de los 10 anfitriones con más plazas</title>
+      <link>/airbnb/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/</link>
+      <pubDate>Mon, 29 Oct 2018 15:54:36 +0100</pubDate>
+      
+      <guid>/airbnb/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/</guid>
+      <description>Distribución espacial de alojamientos de los 10 anfitriones con más plazas  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+  </channel>
+</rss>

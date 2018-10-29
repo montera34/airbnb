@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Distribución espacial de alojamientos de los 10 anfitriones con más plazas</title>
+      <link>/airbnb/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/</link>
+      <pubDate>Mon, 29 Oct 2018 15:54:36 +0100</pubDate>
+      
+      <guid>/airbnb/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/</guid>
+      <description>Distribución espacial de alojamientos de los 10 anfitriones con más plazas  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+    <item>
+      <title>Distribución espacial de anuncios Airbnb y de alojamientos tradicionales</title>
+      <link>/airbnb/pamplona/hoteles-hostales-albergues-campings/distribucion-espacial/</link>
+      <pubDate>Thu, 20 Sep 2018 15:03:06 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/hoteles-hostales-albergues-campings/distribucion-espacial/</guid>
+      <description>Distribución espacial de anuncios Airbnb y de alojamientos tradicionales  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+    <item>
       <title>Densidad de anuncios Airbnb por unidad de superficie</title>
       <link>/airbnb/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/</link>
       <pubDate>Tue, 11 Sep 2018 18:10:44 +0200</pubDate>

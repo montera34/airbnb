@@ -109,3 +109,8 @@ Para terminar esta sección os proponemos comparar la concentración de anuncios
 
 {{% figure src="/images/171014-top-20-barrios-capitales-euskadi-pamplona.png" alt="Alojamientos Airbnb por barrio en Donostia, Bilbao, Pamplona y Vitoria" title="Alojamientos Airbnb por barrio en Donostia, Bilbao, Pamplona y Vitoria" %}}
 
+En el municipio de Pamplona hay un total de 4.084 plazas dentro de la oferta de albergues, apartamentos, hostales, hoteles y pensiones. En Airbnb se ofertan 2.770 plazas de las cuales 1.656 se alquilan como apartamentos completos, 840 como habitaciones privadas y 47 como habitaciones compartidas.
+
+Si no consideramos otras plataformas además de Airbnb (como Homeway, …) la oferta de alojamientos turístico en Pamplona - Iruña se distribuye en un 60% en hoteles, apartamentos, hostales, albergues y pensiones y un 40% en Airbnb.
+
+Nota tabla: los datos sobre la oferta turística tradicional son de 2015 e incluyen en ellos Apartamentos turísticos, por lo que algunas plazas podrían estar duplicadas.

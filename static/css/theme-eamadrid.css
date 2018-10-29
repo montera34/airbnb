@@ -1,7 +1,7 @@
 :root{
     
     --MAIN-TEXT-color:#323232; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-TITLES-TEXT-color: #323232; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#1C90F3; /* Color of links */
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
     --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
@@ -39,6 +39,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 h2, h3, h4, h5 {
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: 0.9rem; }
 
 a {
     color: var(--MAIN-LINK-color);
@@ -68,6 +72,7 @@ a:hover {
     background-color: var(--MAIN-LINK-HOVER-color);
 }
 #sidebar {
+	font-size: 13px !important;
 	background-color: var(--MENU-SECTIONS-BG-color);
 }
 #sidebar #header-wrapper {
@@ -116,7 +121,7 @@ h1 {
 
 #sidebar ul.topics > li > a {
 	line-height: 1.2rem;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: bold;
 }
 #sidebar ul li > a {
@@ -154,7 +159,7 @@ h1 {
 
 /* cols shortcodes */
 .ea-cols {
-	margin: 1rem auto;
+	margin: 1rem auto; width: 100%;
 }
 .ea-col { float: left; position: relative; min-height: 1px; padding: 10px;}
 .ea-col-1 { 8.3333333%; }
@@ -204,4 +209,73 @@ figcaption p {
 	margin-top: 0;
 	line-height: 1.2rem;
 	text-align: center;
+}
+
+/* responsive embeds */
+.embed-responsive {
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	padding-bottom: 0px;
+	overflow: hidden;
+}
+.embed-responsive-4by3 {
+	padding-bottom: 75%;
+}
+.embed-responsive-16by9 {
+	padding-bottom: 56.25%;
+}
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+/* lists */
+.list-inline {
+	list-style: none;
+	margin: 0 0 0 -5px;
+	padding: 0;
+}
+.list-inline > li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+/* user card for anfitriones sections */
+.user-card {
+	margin-bottom: 10px;
+	width: 100%;
+	clear: both;
+	float: left;
+}
+.user-card-img {
+	float: left;
+	width: 64px;
+	height: auto;
+	margin: 0 !important;
+}
+.user-card-data {
+	margin-left: 74px;
+}
+.user-card-data h4 {
+	margin-top: 0;
+}
+
+.vis-legend {
+    border-top: 1px solid #ccc;
+    color: #888;
+    padding-top: 7px;
+    margin-top: 25px;
+    clear: both;
 }

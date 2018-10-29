@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hoteles, hostales, albergues, campings vs. Airbnb on Efecto Airbnb</title>
+    <link>/airbnb/pamplona/hoteles-hostales-albergues-campings/</link>
+    <description>Recent content in Hoteles, hostales, albergues, campings vs. Airbnb on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 19 Sep 2018 23:04:07 +0200</lastBuildDate>
+    
+	<atom:link href="/airbnb/pamplona/hoteles-hostales-albergues-campings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Distribución espacial de anuncios Airbnb y de alojamientos tradicionales</title>
+      <link>/airbnb/pamplona/hoteles-hostales-albergues-campings/distribucion-espacial/</link>
+      <pubDate>Thu, 20 Sep 2018 15:03:06 +0200</pubDate>
+      
+      <guid>/airbnb/pamplona/hoteles-hostales-albergues-campings/distribucion-espacial/</guid>
+      <description>Distribución espacial de anuncios Airbnb y de alojamientos tradicionales  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="es" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.44" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="../../../images/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="256x256" href="../../../images/favicon.png" type="image/x-icon" />
+
+    <title>Distribución espacial de alojamientos de los 10 anfitriones con más plazas :: Efecto Airbnb</title>
+    
+    
+    <link href="../../../css/nucleus.css?1540828918" rel="stylesheet">
+    <link href="../../../css/font-awesome.min.css?1540828918" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1540828918" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1540828918" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1540828918" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1540828918" rel="stylesheet">
+    <link href="../../../css/theme.css?1540828918" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1540828918" rel="stylesheet">
+    
+      <link href="../../../css/theme-eamadrid.css?1540828918" rel="stylesheet">
+    
+
+    <script src="../../../js/jquery-2.x.min.js?1540828918"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="../../../">Efecto Airbnb</a>
+
+    </div>
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/talleres/" title="Talleres de producción colaborativa" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../../talleres/">
+          Talleres de producción colaborativa
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/metodologia/" title="Explorar, prototipar, documentar" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../../metodologia/">
+          Metodología
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/donostia/" title="Donostia" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../../donostia/">
+          Donostia
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/informe/" title="¿De dónde sale este informe?" class="dd-item ">
+        <a href="../../../donostia/informe/">
+        El informe
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/ordenanza-2018/" title="Ordenanza municipal reguladora del uso de la vivienda turística" class="dd-item ">
+        <a href="../../../donostia/ordenanza-2018/">
+        Ordenanza municipal 2018
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/datos/" title="Los datos" class="dd-item ">
+        <a href="../../../donostia/datos/">
+        Los datos
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/viviendas-uso-turistico/" title="Viviendas de uso turístico. ¿Cuántas viviendas se han registrado en la nueva ordenanza?" class="dd-item ">
+        <a href="../../../donostia/viviendas-uso-turistico/">
+        Viviendas de uso turístico
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/ordenanza-municipal-airbnb/" title="Registros en la Ordenanza municipal vs. anuncios Airbnb" class="dd-item ">
+        <a href="../../../donostia/ordenanza-municipal-airbnb/">
+        Ordenanza municipal vs. Airbnb
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/airbnb-alojamientos-barrio/" title="Alojamientos Airbnb por barrio" class="dd-item ">
+        <a href="../../../donostia/airbnb-alojamientos-barrio/">
+        Alojamientos Airbnb por barrio
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/airbnb-plazas-barrio/" title="Plazas ofertadas en Airbnb por barrio" class="dd-item ">
+        <a href="../../../donostia/airbnb-plazas-barrio/">
+        Plazas Airbnb por barrio
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/airbnb-evolucion-barrio/" title="Evolución de alojamientos y plazas Airbnb por barrio entre abril de 2017 y abril de 2018" class="dd-item ">
+        <a href="../../../donostia/airbnb-evolucion-barrio/">
+        Evolución Airbnb 2017-2018 por barrios
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/alquiler-residencial/" title="Evolución de precios del alquiler residencial" class="dd-item ">
+        <a href="../../../donostia/alquiler-residencial/">
+        Alquiler residencial
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/pamplona/" title="Pamplona-Iruña" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="../../../pamplona/">
+          Pamplona-Iruña
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pamplona/informe/" title="¿De dónde sale este informe?" class="dd-item ">
+        <a href="../../../pamplona/informe/">
+        El informe
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pamplona/datos/" title="Los datos" class="dd-item ">
+        <a href="../../../pamplona/datos/">
+        Los datos
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/pamplona/tipo-alojamiento/" title="Tipos de alojamiento" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../../pamplona/tipo-alojamiento/">
+          Tipos de alojamiento
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pamplona/tipo-alojamiento/anuncios-airbnb/" title="Distribución geoespacial de anuncios Airbnb por tipo de alojamiento" class="dd-item ">
+        <a href="../../../pamplona/tipo-alojamiento/anuncios-airbnb/">
+        Mapa de anuncios Airbnb por tipo de alojamiento
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/pamplona/alojamientos-barrio/" title="Alojamientos por barrio" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../../pamplona/alojamientos-barrio/">
+          Alojamientos por barrio
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pamplona/alojamientos-barrio/densidad-anuncios-airbnb/" title="Densidad de anuncios Airbnb por unidad de superficie" class="dd-item ">
+        <a href="../../../pamplona/alojamientos-barrio/densidad-anuncios-airbnb/">
+        Mapa de densidad de anuncios Airbnb
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pamplona/alojamientos-barrio/anuncios-airbnb-cartograma/" title="Cartograma de número de alojamientos de Airbnb por número de viviendas por barrio" class="dd-item ">
+        <a href="../../../pamplona/alojamientos-barrio/anuncios-airbnb-cartograma/">
+        Cartograma de anuncios Airbnb por barrio
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/pamplona/hoteles-hostales-albergues-campings/" title="Hoteles, hostales, albergues, campings vs. Airbnb" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../../pamplona/hoteles-hostales-albergues-campings/">
+          Hoteles, hostales, albergues, campings vs. Airbnb
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pamplona/hoteles-hostales-albergues-campings/distribucion-espacial/" title="Distribución espacial de anuncios Airbnb y de alojamientos tradicionales" class="dd-item ">
+        <a href="../../../pamplona/hoteles-hostales-albergues-campings/distribucion-espacial/">
+        Distribucion Espacial
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/pamplona/alojamientos-airbnb-anfitrion/" title="Concentración de alojamientos Airbnb por anfitrion" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="../../../pamplona/alojamientos-airbnb-anfitrion/">
+          Alojamientos por anfitrion
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/" title="Distribución espacial de alojamientos de los 10 anfitriones con más plazas" class="dd-item active">
+        <a href="../../../pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/">
+        Distribucion Espacial
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3></h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://montera34.com/contacto">Contacto</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://wiki.montera34.com/airbnb/datos-turistificacion-madrid-jpd18">Documenación (Wiki)</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://montera34.com/suscribete">Newsletter</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p><i class="fa fa-2x fa-creative-commons"></i><br>Todo el contenido de este informe está disponible bajo licencia <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</p>
+<p><i class="fa fa-2x fa-code"></i><br>El código de este informe está también disponible bajo <a href="https://github.com/montera34/airbnb.madrid/blob/master/LICENSE">licencia GNU GPL3</a>.</p>
+<p><img style="height: 26px; width: auto;" src="../../../images/m34.logo.png" /><br>Una iniciativa de <a href="https://montera34.com">Montera34</a>.</p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='../../../'></a> > <a href='../../../pamplona/'>Pamplona-Iruña</a> > <a href='../../../pamplona/alojamientos-airbnb-anfitrion/'>Concentración de alojamientos Airbnb por anfitrion</a> > Distribución espacial de alojamientos de los 10 anfitriones con más plazas
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Distribución espacial de alojamientos de los 10 anfitriones con más plazas</h1>
+          
+
+        
+
+
+<div class="ea-iframe">
+	<div class="ea-iframe-inner"><iframe src="https://orekari.carto.com/builder/37c2ccd4-8f61-4a67-b16f-6baad418665f/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B42.79477083762693%2C-1.701765060424805%5D%2C%22sw%22%3A%5B42.837331929830746%2C-1.5982532501220705%5D%2C%22center%22%3A%5B42.816055045344385%2C-1.6500091552734377%5D%2C%22zoom%22%3A14%7D%7D" allowfullscreen frameborder="0"></iframe></div>
+	<footer>Distribución espacial de alojamientos de los 10 anfitriones con más plazas</footer>
+</div>
+
+
+<p><a href="https://orekari.carto.com/builder/37c2ccd4-8f61-4a67-b16f-6baad418665f/embed">Ver el mapa interactivo a pantalla completa.</a></p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="../../../pamplona/alojamientos-airbnb-anfitrion/" title="Concentración de alojamientos Airbnb por anfitrion"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="../../../pamplona/informe/" title="¿De dónde sale este informe?" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../../../js/clipboard.min.js?1540828918"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1540828918"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1540828918"></script>
+    <script src="../../../js/jquery.sticky.js?1540828918"></script>
+    <script src="../../../js/featherlight.min.js?1540828918"></script>
+    <script src="../../../js/html5shiv-printshiv.min.js?1540828918"></script>
+    <script src="../../../js/highlight.pack.js?1540828918"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../../../js/modernizr.custom.71422.js?1540828918"></script>
+    <script src="../../../js/learn.js?1540828918"></script>
+    <script src="../../../js/hugo-learn.js?1540828918"></script>
+
+    <link href="../../../mermaid/mermaid.css?1540828918" type="text/css" rel="stylesheet" />
+    <script src="../../../mermaid/mermaid.js?1540828918"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

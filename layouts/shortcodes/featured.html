@@ -1,3 +1,3 @@
-<div class="vis-featured">
+<div class="vis-featured"{{ if or (.Get "bgcolor") (.Get "color") }}  style="{{ with .Get "bgcolor"}}background-color: {{.}};{{end}}{{ with .Get "color"}}color: {{.}};{{end}}"{{ end }}>
 {{ .Inner }}
 </div>
