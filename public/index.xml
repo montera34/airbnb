@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Explorar, prototipar, documentar</title>
+      <link>/airbnb/talleres/metodologia/</link>
+      <pubDate>Tue, 30 Oct 2018 21:57:26 +0100</pubDate>
+      
+      <guid>/airbnb/talleres/metodologia/</guid>
+      <description>La reciente aparición de plataformas de alquiler de alojamientos peer to peer tipo Airbnb está provocando rápidos cambios de uso en los centros urbanos de mayor atractivo turístico que requieren de un análisis riguroso para permitir su regulación urbanística.
+El objetivo de los talleres Efecto Airbnb es aprender a usar herramientas de obtención, limpieza y análisis de datos para producir un informe que ayude a entender el impacto de Airbnb y otras plataformas de alquiler de alojamientos turísticos.</description>
+    </item>
+    
+    <item>
       <title>Distribución espacial de alojamientos de los 10 anfitriones con más plazas</title>
       <link>/airbnb/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/</link>
       <pubDate>Mon, 29 Oct 2018 15:54:36 +0100</pubDate>
@@ -148,6 +158,15 @@ El taller estuvo coordinado por Montera34, usando una metodología que permite a
       
       <guid>/airbnb/donostia/alquiler-residencial/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Anuncios Activos</title>
+      <link>/airbnb/metodologia/anuncios-activos/</link>
+      <pubDate>Tue, 30 Oct 2018 22:26:51 +0100</pubDate>
+      
+      <guid>/airbnb/metodologia/anuncios-activos/</guid>
+      <description>El análisis de la situación de Airbnb en un determinado territorio requiere, para un adecuado análisis, definir qué pisos están activos, esto es, cuáles se están alquilando o están disponibles para ser alquilados en un determinado periodo.</description>
     </item>
     
     <item>

@@ -11,5 +11,15 @@
 	<atom:link href="/airbnb/talleres/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Explorar, prototipar, documentar</title>
+      <link>/airbnb/talleres/metodologia/</link>
+      <pubDate>Tue, 30 Oct 2018 21:57:26 +0100</pubDate>
+      
+      <guid>/airbnb/talleres/metodologia/</guid>
+      <description>La reciente aparición de plataformas de alquiler de alojamientos peer to peer tipo Airbnb está provocando rápidos cambios de uso en los centros urbanos de mayor atractivo turístico que requieren de un análisis riguroso para permitir su regulación urbanística.
+El objetivo de los talleres Efecto Airbnb es aprender a usar herramientas de obtención, limpieza y análisis de datos para producir un informe que ayude a entender el impacto de Airbnb y otras plataformas de alquiler de alojamientos turísticos.</description>
+    </item>
+    
   </channel>
 </rss>
