@@ -6,19 +6,20 @@
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
     --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color:#ffdd55; /* Background color of menu header */
-    /*--MENU-HEADER-BG-color:#252c31; *//* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#252c31; /*Color of menu header border */ 
+    /*--MENU-HEADER-BG-color:#ffdd55;*/ /* Background color of menu header */
+    --MENU-HEADER-BG-color:#fff; /* Background color of menu header */
+    /*--MENU-HEADER-BORDER-color:#252c31;*/ /*Color of menu header border */ 
+    --MENU-HEADER-BORDER-color:#fff; /*Color of menu header border */ 
 
     --MENU-SEARCH-BG-color:#167ad0; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #33a1ff; /* Override search field border color */
     --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Override search field icons color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color:#20272b; /* Background color of the active section and its childs */
-    --MENU-SECTIONS-BG-color:#252c31; /* Background color of other sections */
-    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
+    --MENU-SECTIONS-ACTIVE-BG-color:#fff; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#fff; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #666; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #fff100;  /* Color of links in menu, when hovered */
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #252c31; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #666; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
@@ -59,6 +60,7 @@ a:hover {
 #sidebar ul li.visited > a .read-icon {
 	color: var(--MENU-VISITED-color);
 }
+#sidebar ul li.active > a { border-left: 5px solid var(--MENU-SECTIONS-LINK-HOVER-color);}
 
 #body a.highlight:after {
     display: block;
@@ -108,7 +110,7 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
-#header a { color: var(--MENU-HEADER-BORDER-color); }
+#header a { color: var(--MAIN-TEXT-color); }
 /* end COLORS*/
 
 
