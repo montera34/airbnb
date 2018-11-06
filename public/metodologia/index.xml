@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>Anuncios Activos</title>
+      <title>Anuncios activos de Airbnb</title>
       <link>/airbnb/metodologia/anuncios-activos/</link>
       <pubDate>Tue, 30 Oct 2018 22:26:51 +0100</pubDate>
       
       <guid>/airbnb/metodologia/anuncios-activos/</guid>
-      <description>El análisis de la situación de Airbnb en un determinado territorio requiere, para un adecuado análisis, definir qué pisos están activos, esto es, cuáles se están alquilando o están disponibles para ser alquilados en un determinado periodo.</description>
+      <description>El análisis de la situación de Airbnb en un determinado territorio requiere, para un adecuado análisis, definir qué anuncios están activos, esto es, cuáles se están alquilando o están disponibles para ser alquilados en un determinado periodo.
+En la plataforma Airbnb hay anuncios inactivos. Saber qué anuncios están inactivos es complicado. Además un anuncio puede tener más o menos actividad, así que una vez conocido su nivel de actividad hay que decidir si lo consideramos activo o inactivo.</description>
     </item>
     
   </channel>
