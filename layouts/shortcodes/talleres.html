@@ -1,0 +1,26 @@
+<div class="ea-cols">
+{{ $.Scratch.Set "counter" 0 }}
+{{ range sort .Site.Data.taller "date_order" "desc" }}
+	{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+	<div class="taller ea-col ea-col-lg-4 ea-col-md-4 ea-col-sm-6 ea-col-xs-12">
+		<header><h2 class="taller-title">{{ .name }}</h2>
+		<ul class="taller-meta list-inline">
+			<li>{{ .date }}</li>
+			<li>{{ .where }}, {{ .city }}</li>
+		</ul>
+		</header>
+		<div class="taller-desc">
+			<img class="taller-img" src="{{ .image_url }}" alt="{{ .name }}" />
+			{{ .description | markdownify }}
+		</div>
+		<footer>
+			<ul class="taller-links list-unstyled">
+				<li><a class="taller-btn btn btn-default" href="{{ .more_url }}">Más información</a></li>
+				<li><a class="taller-btn btn btn-default" href="{{ .dossier_url}}">Consultar el informe</a></li>
+			</ul>
+		</footer>
+	</div>
+	{{ if eq ( $.Scratch.Get "counter" ) 2 }}<div class="clearfix visible-sm"></div>{{ end }}
+	{{ if eq ( $.Scratch.Get "counter" ) 3 }}<div class="clearfix visible-md visible-lg"></div>{{ end }}
+{{ end }}
+</div>
