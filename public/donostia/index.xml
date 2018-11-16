@@ -21,16 +21,6 @@
     </item>
     
     <item>
-      <title>Ordenanza municipal reguladora del uso de la vivienda turística</title>
-      <link>/airbnb/donostia/ordenanza-2018/</link>
-      <pubDate>Fri, 13 Jul 2018 09:55:06 +0200</pubDate>
-      
-      <guid>/airbnb/donostia/ordenanza-2018/</guid>
-      <description>Recientemente se ha aprobado la nueva ordenanza municipal &amp;ldquo;reguladora del uso de vivienda turística y de alquiler de habitaciones en vivienda habitual para uso turístico&amp;rdquo; publicada el 26 marzo 2018. En el momento actual se encuentra en trámite de aplicación, por lo que no es posible medir su impacto en el terreno todavía en su totalidad. Sin embargo, es importante entender cómo intenta regular la vivienda turística.
-   Ordenanza municipal de vivienda turística para Donostia, 2018  Pinchar en la imagen para descargar los planos de la ordenanza en PDF.</description>
-    </item>
-    
-    <item>
       <title>Los datos</title>
       <link>/airbnb/donostia/datos/</link>
       <pubDate>Fri, 13 Jul 2018 09:57:44 +0200</pubDate>
@@ -38,6 +28,16 @@
       <guid>/airbnb/donostia/datos/</guid>
       <description>Para anteriores versiones de este informe hemos desarrollado los análisis en base a los datos de la web InsideAirbnb. Para esta versión añadimos una nueva fuente: la plataforma Data Hippo.
    DataHippo. Proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico  Pincha en la imagen para visitar la plataforma DataHippo.   DataHippo es un proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico, como Airbnb o HomeAway y obtiene los datos con diferentes técnicas de web-scraping, compartiéndolos en abierto, con el objetivo de facilitar el análisis y debate sobre este fenómeno.</description>
+    </item>
+    
+    <item>
+      <title>Ordenanza municipal reguladora del uso de la vivienda turística</title>
+      <link>/airbnb/donostia/ordenanza-2018/</link>
+      <pubDate>Fri, 13 Jul 2018 09:55:06 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/ordenanza-2018/</guid>
+      <description>Recientemente se ha aprobado la nueva ordenanza municipal &amp;ldquo;reguladora del uso de vivienda turística y de alquiler de habitaciones en vivienda habitual para uso turístico&amp;rdquo; publicada el 26 marzo 2018. En el momento actual se encuentra en trámite de aplicación, por lo que no es posible medir su impacto en el terreno todavía en su totalidad. Sin embargo, es importante entender cómo intenta regular la vivienda turística.
+   Ordenanza municipal de vivienda turística para Donostia, 2018  Pinchar en la imagen para descargar los planos de la ordenanza en PDF.</description>
     </item>
     
     <item>
@@ -52,21 +52,12 @@ Abril de 2018
     </item>
     
     <item>
-      <title>Registros en la Ordenanza municipal vs. anuncios Airbnb</title>
-      <link>/airbnb/donostia/ordenanza-municipal-airbnb/</link>
-      <pubDate>Fri, 13 Jul 2018 10:02:00 +0200</pubDate>
-      
-      <guid>/airbnb/donostia/ordenanza-municipal-airbnb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alojamientos Airbnb por barrio</title>
+      <title>Presencia de Airbnb por barrio</title>
       <link>/airbnb/donostia/airbnb-alojamientos-barrio/</link>
       <pubDate>Fri, 13 Jul 2018 10:04:21 +0200</pubDate>
       
       <guid>/airbnb/donostia/airbnb-alojamientos-barrio/</guid>
-      <description></description>
+      <description>Cantidad de alojamientos Airbnb por barrio Para estudiar cómo se distribuye la oferta de Airbnb en la ciudad vamos a estudiarla en relación al total de viviendas por cada barrio. En vez de mostrar y representar los números totales de anuncios de Airbnb por barrio mostramos los valores relativos respecto el total de viviendas. Esto nos permite comparar barrios de distintas características y densidad de vivienda. Usaremos el ratio de número de anuncios respecto a 100 viviendas.</description>
     </item>
     
     <item>
