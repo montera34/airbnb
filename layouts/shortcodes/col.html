@@ -1,3 +1,8 @@
-<div class="ea-col ea-col-{{ .Get 0}}{{ with .Get 1 }} ea-col-lg-{{ .Get 1 }}{{ end }}{{ with .Get 2 }} ea-col-md-{{.}}{{ end }}{{ with .Get 3 }} ea-col-sm-{{.}}{{ end }}{{ with .Get 4 }} ea-col-xs-{{.}}{{ end }}">	
+{{ with .Get "xs" }}{{ $.Scratch.Set "xs" . }}{{ else }}{{ $.Scratch.Set "xs" "12" }}{{ end }}
+{{ with .Get "sm" }}{{ $.Scratch.Set "sm" . }}{{ else }}{{ $.Scratch.Set "sm" ($.Scratch.Get "xs") }}{{ end }}
+{{ with .Get "md" }}{{ $.Scratch.Set "md" . }}{{ else }}{{ $.Scratch.Set "md" ($.Scratch.Get "sm") }}{{ end }}
+{{ with .Get "lg" }}{{ $.Scratch.Set "lg" . }}{{ else }}{{ $.Scratch.Set "lg" ($.Scratch.Get "md") }}{{ end }}
+
+<div class='ea-col ea-col-lg-{{ $.Scratch.Get "lg" }} ea-col-md-{{ $.Scratch.Get "md" }} ea-col-sm-{{ $.Scratch.Get "sm" }} ea-col-xs-{{ $.Scratch.Get "xs" }}'>
 {{ .Inner }}
 </div>

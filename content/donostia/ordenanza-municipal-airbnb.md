@@ -7,12 +7,12 @@ draft: true
 ---
 
 {{< cols >}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 **Abril 2018**
 En Airbnb había registradas tanto más habitaciones (+346) como más viviendas completas (+273) ¿a qué puede deberse esta diferencia? ¿propietarios que no han tramitado su VUT porque no cumplen la normativa?
 {{% /col %}}
 
-{{% col 6 %}}
+{{% col xs="6" %}}
 **Septiembre 2018**
 Haciendo un cálculo más conservador si miramos los anuncios que ofrecían alquiler que estaban disponibles en junio de 2018 el balance es diferente. Sigue habiendo muchas habitaciones que no se han registrado (235) pero hay 86 menos viviendas anunciadas en Airbnb que las inscritas en la ordenanza, lo que puede indicar que: hay viviendas que no se anuncia...
 {{% /col %}}

@@ -10,7 +10,7 @@ draft: false
 En esta sección estudiamos el número total de plazas del alquiler turístico de Airbnb con las plazas de la oferta turística tradicional.
 
 {{< cols >}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 <table class="table table-condensed table-hover">
 <thead>
 <tr>
@@ -54,7 +54,7 @@ En esta sección estudiamos el número total de plazas del alquiler turístico d
 </tbody>
 </table>
 {{% /col %}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 ![Comparativa de plazas hoteleras y de Airbnb en Pamplona-Iruña](/images/pamplona.hoteles.vs.airbnb.png)
 {{% /col %}}
 {{< /col >}}

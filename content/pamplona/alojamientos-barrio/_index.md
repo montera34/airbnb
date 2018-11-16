@@ -13,8 +13,8 @@ Para entender dónde y cómo se ubican los alojamientos de Airbnb en una ciudad 
 {{% featured %}}El 33% de los alojamientos de Airbnb en Pamplona-Iruña están en el Casco Viejo (245 anuncios) y supone un 42% de las plazas (1.168).{{% /featured %}}
 
 {{< cols >}}
-{{% col 7 %}}![Alojamientos y plazas turísticas por barrio](/images/pamplona.alojamientos.plazas.por.barrio.barras.png){{% /col %}}
-{{% col 5 %}}Entre el Casco Viejo y el Ensanche se localizan el 50% de la oferta total de alojamientos con 369 anuncios y el 58% de las plazas (1.601). Los sigue Milagrosa con un 9% (68 alojamientos). El porcentaje de cada uno del resto de los barrios oscila entre un 2% y un 6%.
+{{% col xs="7" %}}![Alojamientos y plazas turísticas por barrio](/images/pamplona.alojamientos.plazas.por.barrio.barras.png){{% /col %}}
+{{% col xs="5" %}}Entre el Casco Viejo y el Ensanche se localizan el 50% de la oferta total de alojamientos con 369 anuncios y el 58% de las plazas (1.601). Los sigue Milagrosa con un 9% (68 alojamientos). El porcentaje de cada uno del resto de los barrios oscila entre un 2% y un 6%.
 
 Espacialmente se observa una mayor concentración de alojamientos en el centro (Casco Viejo/Alde Zaharra) con una continuidad hacia la zona del Ensanche.
 {{% /col %}}
@@ -58,7 +58,7 @@ Espacialmente se observa como la mayor cantidad de alojamientos se concentra en 
 
 {{< cols >}}
 {{< col 2 >}}{{< /col >}}
-{{% col 8 %}}![Alojamientos Airbnb por cada 100 viviendas. Pamplona-Iruña](/images/pamplona.alojamientos.vivienda.barrio.barras.png){{% /col %}}
+{{% col xs="8" %}}![Alojamientos Airbnb por cada 100 viviendas. Pamplona-Iruña](/images/pamplona.alojamientos.vivienda.barrio.barras.png){{% /col %}}
 {{< col 2 >}}{{< /col >}}
 {{< /cols >}}
 

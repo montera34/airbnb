@@ -9,22 +9,22 @@ draft: false
 {{< docdata doc-url="https://github.com/montera34/airbnbeuskadi/wiki/%C2%BFC%C3%B3mo-est%C3%A1-repartida-la-propiedad-de-los-pisos-de-Airbnb%3F" data-url="https://github.com/numeroteca/airbnbnavarra/blob/master/data/original/171002_airbnb_apartments-navarra_datahippo.csv" data-date="octubre 2017" data-comments="738 anuncios">}}
 
 {{< cols >}}
-{{% col 3 %}}{{% featured bgcolor="#0D585F" color="#fff" %}}**10 anfitriones**,
+{{% col xs="3" %}}{{% featured bgcolor="#0D585F" color="#fff" %}}**10 anfitriones**,
 el 2,2% del total,
 ofrecen
 **579 plazas de alojamiento**,
 el 20,9%.{{% /featured %}}{{% /col %}}
-{{% col 3 %}}{{% featured bgcolor="#337F7F" color="#fff" %}}**20 anfitriones**,
+{{% col xs="3" %}}{{% featured bgcolor="#337F7F" color="#fff" %}}**20 anfitriones**,
 el 4,3% del total,
 ofrecen
 **775 plazas de alojamiento**,
 el 28%.{{% /featured %}}{{% /col %}}
-{{% col 3 %}}{{% featured bgcolor="#63A6A0" color="#fff" %}}**50 anfitriones**,
+{{% col xs="3" %}}{{% featured bgcolor="#63A6A0" color="#fff" %}}**50 anfitriones**,
 el 10,8% del total,
 ofrecen
 **1.136 plazas de alojamiento**,
 el 41%.{{% /featured %}}{{% /col %}}
-{{% col 3 %}}{{% featured bgcolor="#9CCDC1" color="#fff" %}}**100 anfitriones**,
+{{% col xs="3" %}}{{% featured bgcolor="#9CCDC1" color="#fff" %}}**100 anfitriones**,
 el 21,6% del total,
 ofrecen
 **1.502 plazas de alojamiento**,
@@ -33,8 +33,8 @@ el 54,2%.{{% /featured %}}{{% /col %}}
 
 <div style="clear: both;"></div>
 {{< cols >}}
-{{% col 8 %}}{{% featured %}}En Pamplona-Iruña hay publicados **738 anuncios** de Airbnb (listings, en su terminología), que tienen capacidad para **2.770 personas** (accommodates). Estos anuncios han sido publicados por **462 anfitriones**.{{< /featured >}}{{% /col %}}
-{{% col 4 %}}{{< featured >}}338 anfitriones (el 73,2%) tiene solamente un anuncio en Airbnb.{{< /featured >}}{{% /col %}}
+{{% col xs="8" %}}{{% featured %}}En Pamplona-Iruña hay publicados **738 anuncios** de Airbnb (listings, en su terminología), que tienen capacidad para **2.770 personas** (accommodates). Estos anuncios han sido publicados por **462 anfitriones**.{{< /featured >}}{{% /col %}}
+{{% col xs="4" %}}{{< featured >}}338 anfitriones (el 73,2%) tiene solamente un anuncio en Airbnb.{{< /featured >}}{{% /col %}}
 {{< /cols >}}
 <div style="clear: both;"></div>
 
@@ -46,15 +46,15 @@ En el gráfico inferior podemos ver los 10 anfitriones con más alojamientos y p
 Todos ellos se anuncian con nombre de pila (Will, Luna, Francisco…) salvo Downtown Pamplona S.L. que lo hace con nombre de empresa. Esto contrasta con el caso de Donosti, donde se invertía la proporción: un nombre común frente a 9 nombres de empresas. Esta diferencia no quiere decir que quien esté detrás de esos perfiles de usuario no sea empresa, pero sí al menos que el modo en que se ofertan los hace parecer usuarios particulares.
 
 {{< cols >}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 {{% figure src="/images/pamplona.airbnb.anfitriones.top.10.alojamientos.plazas.png" alt="Alojamientos y plazas de los 10 usuarios con plazas ofertadas" title="Alojamientos y plazas de los 10 usuarios con plazas ofertadas" %}}
 {{% /col %}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 {{% figure src="/images/pamplona.airbnb.anfitriones.top.10.tipos.alojamiento.png" alt="Tipos de alojamiento para los 10 usuarios con más plazas ofertadas" title="Tipos de alojamiento para los 10 usuarios con más plazas ofertadas" %}}
 {{% /col %}}{{< /cols >}}
 
 {{< cols >}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 ### Los 10 anfitriones con más plazas
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -158,7 +158,7 @@ Todos ellos se anuncian con nombre de pila (Will, Luna, Francisco…) salvo Down
 </table>
 </div>
 {{% /col %}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 ### Los 10 antifriones con más alojamientos
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -278,7 +278,7 @@ Si miramos al tipo de alojamientos que anuncian encontramos la razón: Will, Fra
 Si analizamos cómo se distribuyen geográficamente los alojamientos de los top 7 anfitriones vemos que cada cual tiene concentrados los alojamientos en una zona en concreto. Hay que tener en cuenta que cada alojamiento representa un punto en el mapa. Varios de esos puntos, como son las habitaciones completas y compartidas, pueden formar parte de un único apartamento, pero no hay forma de comprobarlo.
 
 {{< cols >}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 <div class="user-card">
 <img class="user-card-img" src="/images/1-64px.jpg" />
 <div class="user-card-data">
@@ -324,7 +324,7 @@ Si analizamos cómo se distribuyen geográficamente los alojamientos de los top 
 </div>
 </div>
 {{% /col %}}
-{{% col 6 %}}
+{{% col xs="6" %}}
 <div class="user-card">
 <img class="user-card-img" src="/images/5-64px.jpg" />
 <div class="user-card-data">
@@ -390,7 +390,7 @@ Es importante tener en cuenta, a la hora de analizar los datos de Airbnb, la dif
 Como mejor podemos interpretar esta distribución de alojamientos es comparándola con otra ciudad. Hemos aprovechado el informe Efecto Donostia-San Sebastián para comparar cómo se distribuyen los anfitriones. En este gráfico comparamos el porcentaje de anfitriones que tienen 1, 2 o más alojamientos en cada ciudad. Se observa que los porcentajes son similares.
 
 {{< cols >}}
-{{% col 4 %}}
+{{% col xs="4" %}}
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
 <tr>
@@ -441,7 +441,7 @@ Como mejor podemos interpretar esta distribución de alojamientos es comparándo
 </table>
 </div>
 {{% /col %}}
-{{% col 8 %}}
+{{% col xs="8" %}}
 {{% figure src="/images/pamplona.airbnb.anfitriones.1.2.alojamientos.vs.donostia.png" alt="Porcentaje de anfitriones que tienen 1,2,... alojamientos Pamplona vs. Donostia" title="Porcentaje de anfitriones que tienen 1,2,... alojamientos Pamplona vs. Donostia" %}}
 {{% /col %}}
 {{< /cols >}}
@@ -449,7 +449,7 @@ Como mejor podemos interpretar esta distribución de alojamientos es comparándo
 Otra forma de comparar ambas ciudades es fijándose en el número de plazas en vez de el del número de alojamientos (anuncios):
 
 {{< cols >}}
-{{% col 4 %}}
+{{% col xs="4" %}}
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
 <tr>
@@ -500,7 +500,7 @@ Otra forma de comparar ambas ciudades es fijándose en el número de plazas en v
 </table>
 </div>
 {{% /col %}}
-{{% col 8 %}}
+{{% col xs="8" %}}
 {{% figure src="/images/pamplona.airbnb.anfitriones.1.2.plazas.vs.donostia.png" alt="Porcentaje de anfitriones que tienen 1,2,... plazas ofertadas. Pamplona vs. Donostia" title="Porcentaje de anfitriones que tienen 1,2,... plazas ofertadas. Pamplona vs. Donostia" %}}
 {{% /col %}}
 {{< /cols >}}
