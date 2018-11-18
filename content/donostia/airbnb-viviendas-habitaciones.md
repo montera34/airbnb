@@ -24,6 +24,25 @@ Al disponer de datos de 2017 y 2018 podemos estudiar la evolución de la oferta 
 {{% /col %}}
 {{< /cols >}}
 
+## Distribución y evolución por barrios
 {{< figure src="/images/donostia.airbnb.viviendas.habitaciones.barrios.mapa.2018.png" alt="Anuncios de Airbnb en Donostia por tipo: viviendas y habitaciones. Mapa de barrios" title="Anuncios de Airbnb en Donostia por tipo: viviendas y habitaciones. Mapa de barrios" >}}
+
+Si analizamos esta evolución por barrios vemos que es en Centro donde ha aumentado más la oferta (25 viviendas completas más) y en los otros barrios de la zona definida como saturada en la ordenanza de 2018, Gros (12), Antiguo (11) y Egia (10), que en valores porcentuales suponen unos crecimientos entre el 104 y el 114 por ciento. Los descensos más grandes son de 9 y 7 habitaciones privadas en Amara Berri y Altza respectivamente.
+
+{{< cols >}}
+{{% col lg="6" %}}
+**Abril 2017**
+
+{{< figure src="/images/donostia.airbnb.viviendas.habitaciones.barrios.barras.2017.png" alt="Habitaciones y viviendas Airbnb por barrios en Donostia. Abril de 2017" title="Habitaciones y viviendas Airbnb por barrios en Donostia. Abril de 2017" >}}
+{{% /col %}}
+{{% col lg="6" %}}
+**Abril 2018**
+
+{{< figure src="/images/donostia.airbnb.viviendas.habitaciones.barrios.barras.2018.png" alt="Habitaciones y viviendas Airbnb por barrios en Donostia. Abril de 2018" title="Habitaciones y viviendas Airbnb por barrios en Donostia. Abril de 2018" >}}
+{{% /col %}}
+{{< /cols >}}
+
+## Distribución por unidades menores
+{{< figure src="/images/donostia.airbnb.viviendas.habitaciones.unidades.menores.mapa.2018.png" alt="Mapa de anuncios de Airbnb por tipo y por unidad menor en Donostia. Abril de 2018" title="Anuncios de Airbnb por tipo y por unidad menor en Donostia. Abril de 2018" >}}
 
 {{< figure src="/images/donostia.airbnb.viviendas.habitaciones.barras.unidades.menores.2018.png" alt="Anuncios de Airbnb en Donostia por tipo: viviendas y habitaciones. Análisis por unidades menores." title="Anuncios de Airbnb en Donostia por tipo: viviendas y habitaciones. Análisis por unidades menores" >}}

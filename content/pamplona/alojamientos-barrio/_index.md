@@ -57,9 +57,9 @@ Espacialmente se observa como la mayor cantidad de alojamientos se concentra en 
 
 
 {{< cols >}}
-{{< col 2 >}}{{< /col >}}
+{{< col xs="2" >}}{{< /col >}}
 {{% col xs="8" %}}![Alojamientos Airbnb por cada 100 viviendas. Pamplona-Iruña](/images/pamplona.alojamientos.vivienda.barrio.barras.png){{% /col %}}
-{{< col 2 >}}{{< /col >}}
+{{< col xs="2" >}}{{< /col >}}
 {{< /cols >}}
 
 <div style="clear: both;"></div>

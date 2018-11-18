@@ -76,7 +76,17 @@ Abril de 2018
       <pubDate>Fri, 13 Jul 2018 10:17:31 +0200</pubDate>
       
       <guid>/airbnb/donostia/alquiler-residencial/</guid>
-      <description></description>
+      <description>El alquiler residencial puede ser uno de los principales afectados por el aumento de la oferta de la vivienda turística. En esta sección se quiere analizar la evolución del precio del alquiler residencial en Donostia.
+Los datos de los que disponemos son de oferta de alquiler residencial recogidos de la plataforma online Idealista.com en el periodo 2011-2017. Hemos calculado precios medios y medianos por mes y por metro cuadrado, para los barrios y unidades menores de Donostia.</description>
+    </item>
+    
+    <item>
+      <title>Influencia de Airbnb en el alquiler Residencial</title>
+      <link>/airbnb/donostia/alquiler-residencial-airbnb/</link>
+      <pubDate>Sun, 18 Nov 2018 16:18:44 +0100</pubDate>
+      
+      <guid>/airbnb/donostia/alquiler-residencial-airbnb/</guid>
+      <description>Hemos analizado en las secciones anteriores la situación y distribución del alquiler turístico, a través de los datos de la nueva ordenanza y Airbnb y del residencial, a través de Idealista. Es el momento de analizar una de las cuestiones que más se repiten, y que es además uno de los orígenes de esta serie de talleres Efecto Airbnb ¿está el auge de las viviendas de uso turístico impactando la oferta y precio del alquiler residencial?</description>
     </item>
     
   </channel>
