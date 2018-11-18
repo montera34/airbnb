@@ -6,6 +6,8 @@ weight: 11
 draft: false
 ---
 
+{{< docdata doc-url="#method" data-url="https://wiki.montera34.com/airbnb/datos/euskadi" >}}
+
 ¿Son muchos 1.800+ anuncios de AirBnb en Donostia?, ¿son pocos? Depende del municipio en el que hagamos el estudio, de su tamaño y población. Por eso, hemos hecho una comparativa entre varios municipios para determinar la presión turística de cada uno, teniendo en cuenta las cifras de población, el número de anuncios de AirBnb y plazas en hoteles, entre otros datos, y su evolución entre 2017 y 2018. Compararemos también la presión turística entre los barrios más problemáticos de cada ciudad. Porque tal vez 1.800 anuncios en Madrid sean pocos, pero en San Sebastián muchos.
 
 La fórmula es sencilla: número de plazas de alojamiento dividido por el número de habitantes censados multiplicado por cien.
@@ -18,13 +20,13 @@ Plazas 2018 (M3) | Donostia | Santander | Santiago | Barcelona | Madrid | Palma
 |---|---:|---:|---:|---:|---:|---:|
 | Alojamientos Airbnb | 1.869 | 865 | 699 | 18.124 | 21.570 | 1.358 |
 | Plazas Airbnb | 7.627 | 3.458 | 2.581 | 59.210 | 69.832 | 6.203 |
-| Estableciemientos Hoteleros | 136 | 44 | 147 | 676 | 765 | 111 |
+| Establecimientos Hoteleros | 136 | 44 | 147 | 676 | 765 | 111 |
 | Plazas Hoteleras | 5.777 | 4.012 | 7.070 | 80.655 | 84.054 | 22.786 |
 | Habitantes (2017) | 186.370 | 171.951 | 96.456 | 1.620.809 | 3.182.981 | 406.492 |
 | Plazas TOTAL x 100 Habitante | 7,19 | 4,34 | 10,01 | 8,63 | 4,83 | 7,13 |
 | Plazas Airbnb x 100 habitante | 4,09 | 2,01 | 2,68 | 3,65 | 2,19 | 1,53 |
 | Alojamientos Airbnb x 100 habitante | 1,00 | 0,50 | 0,72 | 1,12 | 0,68 | 0,33 |
-| Estableciemientos Hoteleros x 100 habitante | 0,07 | 0,03 | 0,15 | 0,04 | 0,02 | 0,03 |
+| Establecimientos Hoteleros x 100 habitante | 0,07 | 0,03 | 0,15 | 0,04 | 0,02 | 0,03 |
 Plazas Hotel x 100 habitantes | 3,10 | 2,33 | 7,33 | 4,98 | 2,64 | 5,61
 Pisos Airbnb + Hoteles x 100 habitante | 1,08 | 0,53 | 0,88 | 1,16 | 0,70 | 0,36
 
@@ -43,3 +45,17 @@ Pisos Airbnb + Hoteles x 100 habitante | 1,08 | 0,53 | 0,88 | 1,16 | 0,70 | 0,36
 **Evolución en el tiempo**. Hacer una comparación temporal municipio a municipio para determinar cómo ha evolucionado esta realidad en cada una de las localidades.
 
 **Obtener más datos de la oferta hotelera**. Completar los datos de las plazas hoteleras sumando los albergues, casas rurales y campings, para tener una radiografía más completa.
+
+{{% method %}}
+Los datos que hemos usado son exclusivamente al municipio, es decir, no hemos tenido en cuenta las áreas metropolitanas de las ciudades. Por eso tal vez pueda sorprender el dato de plazas de AirBnb en Palma, ya que la mayoría se concentra en municipios limítrofes con la capital.
+
+### Datos
+
+#### Demográficos
+ + **Población** (INE - Padrón 2017 y Padrón 2106). Una de las fuentes fundamentales para la obtención de diversos datos ha sido el INE. Aunque varias comunidades autónomas tienen su propio servicio de estadística, hemos decidido optar por este porque es la única fuente que tiene datos de todos los municipios analizados y obtenidos de la misma forma, lo que garantiza una homogeneización en la forma en la que se han obtenido dichos datos.
+ + **Número de viviendas** (Censo de viviendas INE 2011). Para la obtención de estos datos hemos vuelto a recurrir a la misma fuente por los mismos motivos. El problema con este dato, la última actualización es de 2011, pero resulta imposible obtener datos con una actualización mayor de todas las localidades analizadas.
+
+#### Turísticos
+ + **Número de anuncios de AirBnb y plazas por municipio** (DataHippo.org). Utilizamos los datos en bruto y no distinguimos si los anuncios están activos o inactivos. Datos obtenidos en abril de 2018.
+ + **Plazas hoteleras** ([INE](http://www.ine.es/jaxiT3/Datos.htm?t=2076)) y número de establecimientos. Volvemos a recurrir al INE por los mismos motivos. Son datos actualizados en marzo de 2018, problema, solo son plazas de hoteles. Aunque el INE ofrece datos por albergues, campings, alojamientos rurales, no están detallados a nivel de municipio, tan solo por comunidad autónoma. Por lo tanto, debemos partir de la base de que la presión turística en cada una de las localidades es mayor a la que reflejan los datos que hemos podido obtener, ya que hay determinados tipos de alojamientos que no están reflejados. Datos obtenidos en marzo de 2018.
+{{% /method %}}

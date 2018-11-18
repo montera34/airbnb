@@ -385,3 +385,14 @@ figcaption p {
 .taller-links li {
 	margin-bottom: 5px;
 }
+
+/* Method shortcode */
+.vis-method {
+	background-color: #f6f6f6;
+	padding: 15px;
+	margin: 2.5rem 0 1rem 0;
+}
+#method {
+	margin: 0;
+	font-weight: 300;
+}
