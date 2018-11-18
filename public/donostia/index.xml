@@ -81,12 +81,21 @@ Los datos de los que disponemos son de oferta de alquiler residencial recogidos 
     </item>
     
     <item>
-      <title>Influencia de Airbnb en el alquiler Residencial</title>
+      <title>Influencia de Airbnb en el alquiler residencial</title>
       <link>/airbnb/donostia/alquiler-residencial-airbnb/</link>
       <pubDate>Sun, 18 Nov 2018 16:18:44 +0100</pubDate>
       
       <guid>/airbnb/donostia/alquiler-residencial-airbnb/</guid>
       <description>Hemos analizado en las secciones anteriores la situación y distribución del alquiler turístico, a través de los datos de la nueva ordenanza y Airbnb y del residencial, a través de Idealista. Es el momento de analizar una de las cuestiones que más se repiten, y que es además uno de los orígenes de esta serie de talleres Efecto Airbnb ¿está el auge de las viviendas de uso turístico impactando la oferta y precio del alquiler residencial?</description>
+    </item>
+    
+    <item>
+      <title>Análisis comparativo: indicadores de presión turística</title>
+      <link>/airbnb/donostia/indicadores-presion-turistica/</link>
+      <pubDate>Sun, 18 Nov 2018 17:17:06 +0100</pubDate>
+      
+      <guid>/airbnb/donostia/indicadores-presion-turistica/</guid>
+      <description>¿Son muchos 1.800+ anuncios de AirBnb en Donostia?, ¿son pocos? Depende del municipio en el que hagamos el estudio, de su tamaño y población. Por eso, hemos hecho una comparativa entre varios municipios para determinar la presión turística de cada uno, teniendo en cuenta las cifras de población, el número de anuncios de AirBnb y plazas en hoteles, entre otros datos, y su evolución entre 2017 y 2018. Compararemos también la presión turística entre los barrios más problemáticos de cada ciudad.</description>
     </item>
     
   </channel>

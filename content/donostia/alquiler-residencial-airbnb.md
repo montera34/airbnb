@@ -1,5 +1,5 @@
 ---
-title: "Influencia de Airbnb en el alquiler Residencial"
+title: "Influencia de Airbnb en el alquiler residencial"
 menuTitle: "Alquiler residencial y Airbnb"
 date: 2018-11-18T16:18:44+01:00
 weight: 10
@@ -24,5 +24,3 @@ Para representar la presencia de Airbnb en el barrio utilizamos el logaritmo (ba
 {{< figure src="/images/donostia.airbnb.vs.idealista.2017.png" alt="Comparación de los precios de alquiler con el ratio de penetración de Airbnb por barrio de Donostia en 2017" title="Comparación de los precios de alquiler con el ratio de penetración de Airbnb por barrio de Donostia en 2017" >}}
 
 {{< figure src="/images/donostia.airbnb.vs.idealista.2013.2017.png" alt="Comparación del incremento de precios de alquiler con el ratio de penetración de Airbnb por barrio de Donostia en 2017" title="Comparación de los precios de alquiler con el ratio de penetración de Airbnb por barrio de Donostia en 2017" >}}
-
-
