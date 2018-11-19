@@ -14,3 +14,5 @@ Para comprender la magnitud del impacto de los alojamientos turísticos en un te
 En esta sección se mide el impacto de Airbnb en los barrios de las ciudades analizadas hasta el momento dentro del proyecto Efecto Airbnb: Madrid, Donostia, Bilbao, Pamplona y Vitoria.
 
 El indicador utilizado para comparar los barrios de diferentes territorios es el **ratio de anuncios publicados en Airbnb por cada 100 viviendas**.
+
+Además la heterogeneidad con la que se distribuye la presencia de alojamientos de Airbnb en cualquier ciudad hace más adecuado realizar su estudio basándose en una unidad de medida menor: el barrio.

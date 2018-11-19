@@ -11,7 +11,7 @@ css:
 - "barrios.css"
 ---
 
-{{< docdata doc-url="https://wiki.montera34.com/como-se-concentra-la-oferta-por-barrios-de-airbnb" data-url="#method" data-date="25 octubre 2017" data-comment="" >}}
+{{< docdata doc-url="https://wiki.montera34.com/como-se-concentra-la-oferta-por-barrios-de-airbnb" data-url="#method" data-date="25 octubre 2017" >}}
 
 {{% include-vis barrios %}}
 <ul class="list-inline">
