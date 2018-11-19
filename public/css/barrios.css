@@ -1,0 +1,116 @@
+.sort {
+  border:none;
+  display:inline-block;
+  color:#fff;
+  text-decoration: none;
+  background-color: #aaa;
+  height:30px;
+}
+.sort:hover {
+  text-decoration: none;
+  background-color:#aaa;
+}
+.sort:focus {
+  outline:none;
+}
+.sort:after {
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
+}
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:4px;
+  right:-5px;
+}
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:-4px;
+  right:-5px;
+}
+.viviendas, .ads, .ratio-alojamientos {
+	text-align:right;
+}
+.ratio-alojamientos {
+	font-weight:bold;
+}
+
+.donostia {
+	background-color:#4199cb;
+	border: 4px white solid;
+}
+.bilbao {
+	background-color:#da5455;
+	border: 4px white solid;
+	
+}
+.vitoria {
+	background-color:#5cd79b;
+	border: 4px white solid;
+}
+.pamplona {
+	background-color:#c076c0;
+	border: 4px white solid;
+}
+.madrid {
+	background-color:#f6ae01;
+	border: 4px white solid;
+}
+.bar:hover {
+	opacity:0.8;
+}
+
+#vis, #barchart{
+position: relative;	
+ top: 0px;
+    right: 0px;
+}
+
+.tooltip2 {
+  position: absolute;
+  background: white;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.yaxis line, .yaxis path, .xaxis path, .xaxis2 path {
+	display:none;
+}
+.yaxis {
+font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.xaxis line, .xaxis2 line{
+	stroke:#CCC;
+}
+.square {
+	width:40px;
+	height:20px;
+	float:left;
+}
+line {
+	shape-rendering: crispEdges;
+}
+.legend-barrios p {
+	float:left;
+	margin-right:15px;
+}

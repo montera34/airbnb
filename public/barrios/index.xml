@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comparativa de barrios on Efecto Airbnb</title>
+    <link>/airbnb/barrios/</link>
+    <description>Recent content in Comparativa de barrios on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 19 Nov 2018 10:31:42 +0100</lastBuildDate>
+    
+	<atom:link href="/airbnb/barrios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alojamientos de Airbnb por cada 100 vivivendas</title>
+      <link>/airbnb/barrios/airbnb-ratio-100-viviendas/</link>
+      <pubDate>Mon, 19 Nov 2018 10:36:28 +0100</pubDate>
+      
+      <guid>/airbnb/barrios/airbnb-ratio-100-viviendas/</guid>
+      <description>Documentación y metodología
+Datos Airbnb 25 octubre 2017   Donostia / San Sebastián Bilbao Pamplona-Iruña Vitoria-Gasteiz Madrid   Documentación y metodología Datos Todos los datos provienen de DataHippo.
+ Euskadi. 14 de octubre de 2017. Navarra. 14 de octubre de 2017. Madrid. 25 de octubre de 2017.    </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/airbnb/barrios/airbnb-ratio-100-viviendas/</loc>
+    <lastmod>2018-11-19T10:36:28+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/airbnb/talleres/metodologia/</loc>
     <lastmod>2018-10-30T23:06:27+01:00</lastmod>
   </url>
@@ -125,6 +130,11 @@
   <url>
     <loc>/airbnb/pamplona/</loc>
     <lastmod>2018-10-30T10:56:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/barrios/</loc>
+    <lastmod>2018-11-19T10:31:42+01:00</lastmod>
   </url>
   
   <url>
