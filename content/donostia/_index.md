@@ -19,3 +19,6 @@ Este informe es una iniciativa conjunta de <a href="https://montera34.com">Monte
 <li><a href="https://tabakalera.eu/es/hirikilabs-laboratorio-de-cultura-digital-y-tecnologia"><img alt="Logo de Hirikilabs" src="/images/hirikilabs.logo.png" /></a></li>
 <li><a href="https://tabakalera.eu/"><img alt="Logo de Tabakalera" src="/images/tabakalera.logo.jpg" /></a></li>
 </ul>
+
+## Índice de secciones
+{{% children depth="3" style="div" %}}
