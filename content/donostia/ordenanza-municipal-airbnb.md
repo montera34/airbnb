@@ -3,8 +3,16 @@ title: "VUT registradas en la Ordenanza municipal vs. anuncios en Airbnb"
 menuTitle: "Ordenanza municipal vs. Airbnb"
 date: 2018-07-13T10:02:00+02:00
 weight: 5
-draft: true
+draft: false
 ---
+
+Hemos analizado los números de las VUT que se están tramitando en la nueva ordenanza ¿hay más o menos que los publicados en Airbnb? Vamos a verlo en esta tabla comparativa:
+
+|VUT en Donosita| Ordenanza abril 2018 | Ordenanza septiembre 2018 |   
+|---|---:|---:|---:|
+|Habitación	| 125 | 126 | 
+|Vivienda	| 1.117 | 1.162 |
+|Total		| 1.242 | 1.289 |
 
 {{< cols >}}
 {{% col xs="6" %}}
