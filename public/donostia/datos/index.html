@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.40.1" />
     <meta name="description" content="Los datos de la turistificación">
 <meta name="author" content="Montera34">
 
@@ -13,19 +13,19 @@
     <title>Los datos :: Efecto Airbnb</title>
     
     
-    <link href="../../css/nucleus.css?1542629595" rel="stylesheet">
-    <link href="../../css/font-awesome.min.css?1542629595" rel="stylesheet">
-    <link href="../../css/hybrid.css?1542629595" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1542629595" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1542629595" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1542629595" rel="stylesheet">
-    <link href="../../css/theme.css?1542629595" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1542629595" rel="stylesheet">
+    <link href="../../css/nucleus.css?1542805535" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css?1542805535" rel="stylesheet">
+    <link href="../../css/hybrid.css?1542805535" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1542805535" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1542805535" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1542805535" rel="stylesheet">
+    <link href="../../css/theme.css?1542805535" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1542805535" rel="stylesheet">
     
-      <link href="../../css/theme-eamadrid.css?1542629595" rel="stylesheet">
+      <link href="../../css/theme-eamadrid.css?1542805535" rel="stylesheet">
     
 
-    <script src="../../js/jquery-2.x.min.js?1542629595"></script>
+    <script src="../../js/jquery-2.x.min.js?1542805535"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -266,6 +266,25 @@
       <li data-nav-id="/donostia/viviendas-uso-turistico/" title="Viviendas de uso turístico. ¿Cuántas viviendas se han registrado en la nueva ordenanza?" class="dd-item ">
         <a href="../../donostia/viviendas-uso-turistico/">
         Viviendas de uso turístico en la ordenanza
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/donostia/ordenanza-municipal-airbnb/" title="VUT registradas en la Ordenanza municipal vs. anuncios en Airbnb" class="dd-item ">
+        <a href="../../donostia/ordenanza-municipal-airbnb/">
+        Ordenanza municipal vs. Airbnb
         
         </a>
     </li>
@@ -779,7 +798,7 @@
     
     <section id="footer">
       <p><i class="fa fa-2x fa-creative-commons"></i><br>Todo el contenido de este informe está disponible bajo licencia <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</p>
-<p><i class="fa fa-2x fa-code"></i><br>El código de este informe está también disponible bajo <a href="https://github.com/montera34/airbnb.madrid/blob/master/LICENSE">licencia GNU GPL3</a>.</p>
+<p><i class="fa fa-2x fa-code"></i><br>El código de este informe está también disponible bajo <a href="https://github.com/montera34/airbnb/blob/master/LICENSE">licencia GNU GPL3</a>.</p>
 <p><img style="height: 26px; width: auto;" src="../../images/m34.logo.png" /><br>Una iniciativa de <a href="https://montera34.com">Montera34</a>.</p>
 
     </section>
@@ -835,7 +854,9 @@
 <ul>
 <li>
 <ul>
-<li><a href="#viviendas-de-uso-turístico-vut">Viviendas de uso turístico (VUT)</a></li>
+<li><a href="#datos-de-airbnb">Datos de Airbnb</a></li>
+<li><a href="#datos-oficiales-de-viviendas-de-uso-turístico-vut">Datos oficiales de Viviendas de uso turístico (VUT)</a></li>
+<li><a href="#acceso-a-los-datos">Acceso a los datos</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -858,7 +879,11 @@
 
 
 
-<p>Para anteriores versiones de este informe hemos desarrollado los análisis en base a los datos de la web <a href="http://insideairbnb.com">InsideAirbnb</a>. Para esta versión añadimos una nueva fuente: la plataforma <a href="https://datahippo.org">Data Hippo</a>.</p>
+<p>Este informe esta basado en diferentes bases de datos para ayudar a entender el tema de las viviendas turísticas en Donostia - San Sebastián. Las bases de datos oficiales provienen del Ayuntamiento de Donostia y del Instituto Nacional de Estadística. Para los datos de Airbnb, que no están disponibles para descarga, se ha recurrido a diversas fuentes que capturan datos con diferentes técnicas de <a href="https://es.wikipedia.org/wiki/Web_scraping">web-scraping</a>. Se usan también datos del portal inmobiliario Idealista para analizar la oferta de alquiler residencial no turístico.</p>
+
+<h2 id="datos-de-airbnb">Datos de Airbnb</h2>
+
+<p>Para este informe se han usado datos de la plataforma <a href="https://datahippo.org">Data Hippo</a>. Para anteriores versiones de este informe hemos desarrollado los análisis en base a los datos de la web <a href="http://insideairbnb.com">InsideAirbnb</a>.</p>
 
 
 <figure>
@@ -879,15 +904,13 @@
 </figure>
 
 
-<p>DataHippo es un proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico, como Airbnb o HomeAway y obtiene los datos con diferentes técnicas de <a href="https://es.wikipedia.org/wiki/Web_scraping">web-scraping</a>, compartiéndolos en abierto, con el objetivo de facilitar el análisis y debate sobre este fenómeno. El proyecto nace en el verano de 2017 en Donostia, en el SummerLab organizado por Hirikilabs y Tabakalera y como iniciativa de Montera34 y <a href="http://saigesp.es">Santiago Espinosa</a>.</p>
+<p>**DataHippo es un proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico, como Airbnb o HomeAway y obtiene los datos con diferentes técnicas de <a href="https://es.wikipedia.org/wiki/Web_scraping">web-scraping</a>, compartiéndolos en abierto, con el objetivo de facilitar el análisis y debate sobre este fenómeno. El proyecto nace en el verano de 2017 en Donostia, en el SummerLab organizado por Hirikilabs y Tabakalera y como iniciativa de Montera34 y <a href="http://saigesp.es">Santiago Espinosa</a>.</p>
 
-<p>Los datos de Airbnb de 2017 provienen de InsideAirbnb. También usamos para el análisis los datos del <a href="https://www.donostia.eus/ataria/es/web/hirigintza/censo-de-viviendas-turisticas">censo de viviendas turísticas del Ayuntamiento de Donostia</a>. Por último se usan también datos del Instituto Nacional de Estadística y del portal inmobiliario Idealista.</p>
+<p>Los datos de Airbnb de 2017 provienen de InsideAirbnb.</p>
 
-<p>Todos los datos usados están disponibles para su descarga en el repositorio del proyecto, en <a href="https://github.com/montera34/airbnbeuskadi/tree/master/data/original">formato original</a> y también <a href="https://github.com/montera34/airbnbeuskadi/tree/master/data/output">tratados y estructurados</a> para la realización del informe.</p>
+<h2 id="datos-oficiales-de-viviendas-de-uso-turístico-vut">Datos oficiales de Viviendas de uso turístico (VUT)</h2>
 
-<p>En cada una de las secciones del informe se indican los datos usados para elaborar cada uno de los análisis.</p>
-
-<h2 id="viviendas-de-uso-turístico-vut">Viviendas de uso turístico (VUT)</h2>
+<p>Usamos para el análisis los datos del <a href="https://www.donostia.eus/ataria/es/web/hirigintza/censo-de-viviendas-turisticas">censo de viviendas turísticas del Ayuntamiento de Donostia</a>, que se han descargado de la propia web (<a href="https://wiki.montera34.com/airbnb/pregunta/analisis-vut-ordenanza-donostia">ver método</a>).</p>
 
 <p>VUT registradas en el censo municipal de Donostia, tras la aplicación de la ordenanza de viviendas turísticas de marzo de 2018.</p>
 
@@ -895,7 +918,7 @@
 <thead>
 <tr>
 <th>Fecha</th>
-<th align="right">Marzo 2018</th>
+<th align="right">Abril 2018</th>
 <th align="right">Sept. 2018</th>
 </tr>
 </thead>
@@ -922,6 +945,12 @@
 </table>
 
 <p>Fuente: Ayuntamiento de Donostia</p>
+
+<h2 id="acceso-a-los-datos">Acceso a los datos</h2>
+
+<p>Todos los datos usados están disponibles para su descarga en el repositorio del proyecto, en <a href="https://github.com/montera34/airbnbeuskadi/tree/master/data/original">formato original</a> y también <a href="https://github.com/montera34/airbnbeuskadi/tree/master/data/output">tratados y estructurados</a> para la realización del informe.</p>
+
+<p>En cada una de las secciones del informe se indican los datos usados para elaborar cada uno de los análisis.</p>
 
 
 <footer class=" footline" >
@@ -1095,6 +1124,22 @@
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1467,20 +1512,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1542629595"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1542629595"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1542629595"></script>
-    <script src="../../js/jquery.sticky.js?1542629595"></script>
-    <script src="../../js/featherlight.min.js?1542629595"></script>
-    <script src="../../js/html5shiv-printshiv.min.js?1542629595"></script>
-    <script src="../../js/highlight.pack.js?1542629595"></script>
+    <script src="../../js/clipboard.min.js?1542805535"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1542805535"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1542805535"></script>
+    <script src="../../js/jquery.sticky.js?1542805535"></script>
+    <script src="../../js/featherlight.min.js?1542805535"></script>
+    <script src="../../js/html5shiv-printshiv.min.js?1542805535"></script>
+    <script src="../../js/highlight.pack.js?1542805535"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom.71422.js?1542629595"></script>
-    <script src="../../js/learn.js?1542629595"></script>
-    <script src="../../js/hugo-learn.js?1542629595"></script>
+    <script src="../../js/modernizr.custom.71422.js?1542805535"></script>
+    <script src="../../js/learn.js?1542805535"></script>
+    <script src="../../js/hugo-learn.js?1542805535"></script>
 
-    <link href="../../mermaid/mermaid.css?1542629595" type="text/css" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1542629595"></script>
+    <link href="../../mermaid/mermaid.css?1542805535" type="text/css" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1542805535"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

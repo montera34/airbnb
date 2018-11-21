@@ -115,8 +115,7 @@ cada 100 viviendas   1 Centro-Donostia Donostia / San Sebastián 862 13905 6,20 
       <pubDate>Fri, 13 Jul 2018 09:57:44 +0200</pubDate>
       
       <guid>/airbnb/donostia/datos/</guid>
-      <description>Para anteriores versiones de este informe hemos desarrollado los análisis en base a los datos de la web InsideAirbnb. Para esta versión añadimos una nueva fuente: la plataforma Data Hippo.
-   DataHippo. Proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico  Pincha en la imagen para visitar la plataforma DataHippo.   DataHippo es un proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico, como Airbnb o HomeAway y obtiene los datos con diferentes técnicas de web-scraping, compartiéndolos en abierto, con el objetivo de facilitar el análisis y debate sobre este fenómeno.</description>
+      <description>Este informe esta basado en diferentes bases de datos para ayudar a entender el tema de las viviendas turísticas en Donostia - San Sebastián. Las bases de datos oficiales provienen del Ayuntamiento de Donostia y del Instituto Nacional de Estadística. Para los datos de Airbnb, que no están disponibles para descarga, se ha recurrido a diversas fuentes que capturan datos con diferentes técnicas de web-scraping. Se usan también datos del portal inmobiliario Idealista para analizar la oferta de alquiler residencial no turístico.</description>
     </item>
     
     <item>
@@ -148,6 +147,16 @@ cada 100 viviendas   1 Centro-Donostia Donostia / San Sebastián 862 13905 6,20 
       <description>Actualmente las viviendas y habitaciones de uso turístico de Donostia están en estado de tramitación para adaptarse a la nueva normativa descrita más arriba. Hemos descargado datos en dos momentos diferentes, nada más aprobada la nueva normativa en abril y a mediados de septiembre. Esto nos permite ver cómo está evolucionando la implantación y su estado actual.
 Abril de 2018
     Tramitación Favorable Total     Habitación 73 52 125   Vivienda 764 353 1.</description>
+    </item>
+    
+    <item>
+      <title>VUT registradas en la Ordenanza municipal vs. anuncios en Airbnb</title>
+      <link>/airbnb/donostia/ordenanza-municipal-airbnb/</link>
+      <pubDate>Fri, 13 Jul 2018 10:02:00 +0200</pubDate>
+      
+      <guid>/airbnb/donostia/ordenanza-municipal-airbnb/</guid>
+      <description>Hemos analizado los números de las VUT que se están tramitando en la nueva ordenanza ¿hay más o menos que los publicados en Airbnb? Vamos a verlo en esta tabla comparativa:
+   VUT en Donosita Ordenanza abril 2018 Ordenanza septiembre 2018      Habitación 125 126    Vivienda 1.117 1.162    Total 1.242 1.289     Abril 2018 En Airbnb había registradas tanto más habitaciones (+346) como más viviendas completas (+273) ¿a qué puede deberse esta diferencia?</description>
     </item>
     
     <item>

@@ -48,6 +48,8 @@ Las habitaciones suponen un 10% del total de las Viviendas de uso turístico tra
 
 La distribución de las VUT, que han solicitado o que ya han visto tramitada su solicitud, es muy desigual en la ciudad. Los barrios de Centro y Gros acaparan el 75,6% de todas las VUT (favorables o tramitadas) junto con Antiguo ese porcentaje sube hasta el 83,6, lo cual tiene sentido porque ambos barrios incorporan casi la totalidad de las zonas clasificadas como saturada y B de la ordenanza de marzo de 2018.
 
+{{% figure src="/images/vut-barras-barrio-20180914.png" alt="VUT por barrio en Donostia. Septiembre 2018" title="VUT por barrio en Donostia. Septiembre 2018" link="/images/donostia.ordenanza.2018.planos.pdf" caption="VUT por barrio en Donostia. Septiembre 2018." %}}
+
 ## Viviendas de uso turístico según su estado de tramitación
 {{< cols >}}
 {{% col xs="6" %}}
@@ -77,7 +79,8 @@ El 47 por ciento de los expedientes han obtenido resolución favorables. Si eval
 Es conveniente recordar que de todas las solicitudes recibidas en los 10 días siguientes a la publicación de la ordenanza entraron en un sorteo para decidir su orden de tramitación. Este orden es crucial cuando existen 2 peticiones de un mismo bloque de viviendas.
 
 ## Ratio de viviendas de uso turístico por cada 100 viviendas residenciales
-
+{{< cols >}}
+{{% col xs="6" %}}
 **Abril de 2018**
 
 {{< figure src="/images/donostia.ordenanza.vut.barrio.barras.abril.2018.png" alt="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en los diferentes barrios de Donostia. Abril 2018" title="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en los diferentes barrios de Donostia. Abril 2018">}}
