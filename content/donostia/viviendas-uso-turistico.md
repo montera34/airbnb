@@ -58,31 +58,26 @@ La distribución de las VUT, que han solicitado o que ya han visto tramitada su 
 {{% col xs="6" %}}
 **Septiembre de 2018**
 
-{{< figure src="/images/donostia.ordenanza.vut.tramitacion.sept.2018.png" alt="Habitaciones y viviendas de uso turístico según estado de tramitación en septiembre de 2018" title="Habitaciones y viviendas de uso turístico según estado de tramitación en septiembre de 2018">}}
+{{< figure src="/images/map-vut-tramitacion-donostia-20180914_zoom.png" alt="Habitaciones y viviendas de uso turístico según estado de tramitación en septiembre de 2018" title="Habitaciones y viviendas de uso turístico según estado de tramitación en septiembre de 2018">}}
 {{% /col %}}
 {{< /cols >}}
+
+En los dos barrios marcados en la imagen (Centro y Gros) siguiente se concentra el 75,6% de las VUT:
+
+{{% figure src="/images/map-vut-tramitacion-donostia-20180914-barrios_zoom.png" alt="Ordenanza municipal de vivienda turística para Donostia, 2018" title="Ordenanza municipal de vivienda turística para Donostia, 2018" link="/images/donostia.ordenanza.2018.planos.pdf" caption="Pinchar en la imagen para descargar los planos de la ordenanza en PDF." %}}
 
 En los dos barrios marcados en las imágenes anteriores (Centro y Gros) se concentra el 75,6% de las VUT. En estos dos barrios el ratio de VUT del tipo vivienda completa por cada 100 viviendas residenciales es muy superior al resto: 4,36 para Centro, 3,32 para Gros. El resto queda por debajo de 1,33, encabezado por Antiguo, como se puede ver en el siguiente gráfico.
 
-{{< cols >}}
-{{% col xs="6" %}}
-**Abril de 2018**
+{{% figure src="/images/donostia.ordenanza.vut.barrio.barras.sept.2018.png" alt="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en barrios de Donostia. Septiembre 2018" title="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en barrios de Donostia. Septiembre 2018" caption="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en barrios de Donostia. Septiembre 2018." %}}
 
+El 47 por ciento de los expedientes han obtenido resolución favorables. Si evaluamos las VUT por barrio según su estado de tramitación vemos que en Centro el 58 por ciento han obtenido aprobación favorable, por encima de la media, frente a un 49 de Gros y un 59 de Antiguo. Esta diferencia puede deberse a que en Centro, y sobre todo en Parte Vieja ya había muchas VUT funcionando que ya estaban operando. Una parte importante de ellas son habitaciones, ya que suponen el 24 del total de VUT de esa zona del barrio Centro, frente al 6 del Área Romántica o 7 de Gros.
 
-{{< figure src="/images/donostia.ordenanza.vut.tramitacion.barras.abril.2018.png" alt="Viviendas de uso turístico según estado de tramitación por barrio en abril de 2018" title="Viviendas de uso turístico según estado de tramitación por barrio en abril de 2018">}}
-{{% /col %}}
-{{% col xs="6" %}}
-**Septiembre de 2018**
-
-{{< figure src="/images/donostia.ordenanza.vut.tramitacion.barras.sept.2018.png" alt="Viviendas de uso turístico según estado de tramitación por barrio en septiembre de 2018" title="Viviendas de uso turístico según estado de tramitación por barrio en septiembre de 2018">}}
-{{% /col %}}
-{{< /cols >}}
+{{% figure src="/images/donostia.ordenanza.vut.tramitacion.barras.sept.2018.png" alt="Viviendas de uso turístico según estado de tramitación por barrio en septiembre de 2018" title="Viviendas de uso turístico según estado de tramitación por barrio en septiembre de 2018" %}}
 
 Es conveniente recordar que de todas las solicitudes recibidas en los 10 días siguientes a la publicación de la ordenanza entraron en un sorteo para decidir su orden de tramitación. Este orden es crucial cuando existen 2 peticiones de un mismo bloque de viviendas.
 
 ## Ratio de viviendas de uso turístico por cada 100 viviendas residenciales
-{{< cols >}}
-{{% col xs="6" %}}
+
 **Abril de 2018**
 
 {{< figure src="/images/donostia.ordenanza.vut.barrio.barras.abril.2018.png" alt="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en los diferentes barrios de Donostia. Abril 2018" title="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en los diferentes barrios de Donostia. Abril 2018">}}
