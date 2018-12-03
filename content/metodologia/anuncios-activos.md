@@ -17,14 +17,18 @@ Cuando se publica un anuncio en Airbnb se tiene que definir su disponibilidad a 
 
 {{< figure src="/images/metodologia.airbnb.listing.calendario.disponibilidad.png" alt="Calendario para definir la disponibilidad para que un alojamiento sea alquilado en Airbnb" title="Calendario para definir la disponibilidad para que un alojamiento sea alquilado en Airbnb">}}
 
-Según el uso que haga el propietario del alojamiento y la actividad económica que quiera llevar a cabo Airbnb clasifica el anuncio como vivienda principal, egunda vivienda, o espacio no residencial u hotel. En función del tipo de anuncio seleccionado la configuración por omisión del calendario de disponibilidad cambia. Para una vivienda principal ninguna fecha está disponible a menos que se habiliten.
+Según el uso que haga el propietario del alojamiento y la actividad económica que quiera llevar a cabo Airbnb clasifica el anuncio como vivienda principal, segunda vivienda o espacio no residencial u hotel. En función del tipo de anuncio seleccionado la configuración por omisión del calendario de disponibilidad cambia. Para una vivienda principal ninguna fecha está disponible a menos que sea habilitada.
 
 {{< figure src="/images/metodologia.airbnb.listing.tipo.png" alt="Opciones para elegir el tipo de anuncio según la actividad económica que se vaya a hacer." title="Opciones para elegir el tipo de anuncio según la actividad económica que se vaya a hacer.">}}
 
 ### Evaluaciones de un alojamiento
 Cuando un usuario ha alquilado un alojamiento y ha finalizado su estancia puede escribir una evaluación o *review* de su experiencia. Las evaluaciones son públicas y están disponibles en su totalidad en la página del anuncio. Dejar una evaluación no es obligatorio aunque el sistema de reserva de Airbnb anima a los usuarios a que lo hagan.
 
-Según Airbnb [el 72% de los usuarios escribía evaluaciones](https://www.quora.com/What-percent-of-Airbnb-hosts-leave-reviews-for-their-guests) en 2012.
+Hay mucha disparidad en las cifras sobre el porcentaje de usuarios que deja una evaluación:
+
++ Según fuents no oficiales de Airbnb [el 72% de los usuarios escribía evaluaciones](https://www.quora.com/What-percent-of-Airbnb-hosts-leave-reviews-for-their-guests) en 2012.
++ 30,5% (basado en la comparació nde datos públicos de evaluaciones del infome del New York Attorney General’s en octubre de 2014).
++ [Murray Cox de InsideAirbnb usa un 50%](http://insideairbnb.com/about.html), basado en la media casi exacta de los porcentajes anteriores, para su "Occupancy Model. 
 
 ## Definición de anuncio activo
 Murray Cox, creador de [Inside Airbnb](http://insideairbnb.com), apunta que la definición de anuncio activo [dependerá del objetivo del análisis donde se vayan a usar los datos](https://twitter.com/InsideAirbnb/status/988886252329095168). Su método consiste en analizar la fecha de la última evaluación junto con la frecuencia y el número total de evaluaciones.
@@ -36,5 +40,12 @@ Parece necesario entonces, para clasificar un anuncio como activo, combinar el a
  + El que ha recibido evaluaciones en un determinado periodo [pasado]. Como hemos visto no todos los anuncios que han tenido una reserva llegan a tener evaluación, pero puede ser un buen indicador de la ocupación de un alojamiento.
  + El que está visible en la web en un determinado momento [presente]. Quedarían fuera los que han sido dados de baja.
  + El que tiene fechas disponibles para ser alquilado [futuro]. El periodo máximo para definir la disponibilidad de un alojamiento es un año, así que éste sería el periodo de tiempo a analizar.
+ 
+
+## Anuncios activos por mes
+Para contar los activos en un determinado mes (la empresa Airdna lo hace así “An active rental is a property that has had at least one available day or property day in the previous month. Available day means the host had made the property available to rent”, y tiene sentido, hay que delimitar el periodo que se quiere estudiar) podemos seleccionar los que cumplan alguna de las siguientes características:
+
++ tengan fechas disponibles (que la significa que la fecha de “revised” en las bases de datos de datahippo.org sea de ese mes o anterior)
++ haya tenido reserva en el mes anterior o en ese mismo (eso lo podemos saber por la fecha de las last review del scraping que hemos desarrollado)
 
 
