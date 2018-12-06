@@ -2,8 +2,8 @@
 <html lang="es" class="js csstransforms3d">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.40.1" />
     <meta name="description" content="Los datos de la turistificación">
 <meta name="author" content="Montera34">
 
@@ -11,24 +11,24 @@
 <link rel="icon" sizes="256x256" href="../../images/favicon.png" type="image/x-icon" />
 
     <title>Presencia de Airbnb por barrio :: Efecto Airbnb</title>
-
     
-    <link href="../../css/nucleus.css?1542882599" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1542882599" rel="stylesheet">
-    <link href="../../css/hybrid.css?1542882599" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1542882599" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1542882599" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1542882599" rel="stylesheet">
-    <link href="../../css/theme.css?1542882599" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1542882599" rel="stylesheet">
     
-      <link href="../../css/theme-eamadrid.css?1542882599" rel="stylesheet">
+    <link href="../../css/nucleus.css?1544057903" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css?1544057903" rel="stylesheet">
+    <link href="../../css/hybrid.css?1544057903" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1544057903" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1544057903" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1544057903" rel="stylesheet">
+    <link href="../../css/theme.css?1544057903" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1544057903" rel="stylesheet">
+    
+      <link href="../../css/theme-eamadrid.css?1544057903" rel="stylesheet">
     
 
-    <script src="../../js/jquery-2.x.min.js?1542882599"></script>
-
+    <script src="../../js/jquery-2.x.min.js?1544057903"></script>
+    
     <style type="text/css">
-      :root #header + #content > #left > #rlblock_left{
+      :root #header + #content > #left > #rlblock_left{ 
           display:none !important;
       }
       
@@ -244,6 +244,25 @@
  
   
     
+      <li data-nav-id="/donostia/estacionalidad/" title="Estacionalidad" class="dd-item ">
+        <a href="../../donostia/estacionalidad/">
+        Estacionalidad
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
       <li data-nav-id="/donostia/ordenanza-2018/" title="Ordenanza municipal reguladora del uso de la vivienda turística" class="dd-item ">
         <a href="../../donostia/ordenanza-2018/">
         Ordenanza municipal 2018
@@ -303,7 +322,7 @@
     
       <li data-nav-id="/donostia/airbnb-alojamientos-barrio/" title="Presencia de Airbnb por barrio" class="dd-item active">
         <a href="../../donostia/airbnb-alojamientos-barrio/">
-        Análisis por barrios
+        Airbnb por barrios
         
         </a>
     </li>
@@ -820,15 +839,13 @@
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
                         <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
+                          <i class="fa fa-bars"></i>
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
                   
                   <span class="links">
-                 
-                 
                     
           
           
@@ -846,8 +863,7 @@
           
          
           
-        
-                 
+           
                   </span>
                 </div>
                 
@@ -857,7 +873,14 @@
 <ul>
 <li>
 <ul>
-<li><a href="#cantidad-de-alojamientos-airbnb-por-barrio">Cantidad de alojamientos Airbnb por barrio</a></li>
+<li><a href="#cantidad-de-alojamientos-airbnb-por-barrio">Cantidad de alojamientos Airbnb por barrio</a>
+<ul>
+<li><a href="#número-de-anuncios">Número de anuncios</a></li>
+<li><a href="#anuncios-por-viviendas-existente">Anuncios por viviendas existente</a>
+<ul>
+<li><a href="#cartograma">Cartograma</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#plazas-ofertadas-en-airbnb-por-barrio">Plazas ofertadas en Airbnb por barrio</a></li>
 </ul></li>
 </ul>
@@ -883,20 +906,70 @@
 
 <h2 id="cantidad-de-alojamientos-airbnb-por-barrio">Cantidad de alojamientos Airbnb por barrio</h2>
 
-<p>Para estudiar cómo se distribuye la oferta de Airbnb en la ciudad vamos a estudiarla en relación al total de viviendas por cada barrio. En vez de mostrar y representar los números totales de anuncios de Airbnb por barrio <strong>mostramos los valores relativos respecto el total de viviendas</strong>. Esto nos permite comparar barrios de distintas características y densidad de vivienda. <strong>Usaremos el ratio de número de anuncios respecto a 100 viviendas.</strong></p>
+<h3 id="número-de-anuncios">Número de anuncios</h3>
 
-<p>Donostia es con diferencia la ciudad de Euskadi que más anuncios de Airbnb tiene (1.896 en septiembre de 2018) y a la vez la que tiene mayor cantidad por total de vivienda. Los barrios de Igeldo, Centro, Ategorrieta-Ulia, Miramon-Zorroaga y Gros,con tienen ratios por encima de 3, son los más altos de todo Euskadi. También destaca Antiguo con un ratio en torno al 2.</p>
-
-<p>En cuanto a la evolución desde marzo de 2017 observamos que los valores aumentan todos un poco, siendo Ategorrieta-Ulia el que más aumenta de 3,83 a 4,95, porque pasa de 65 a 84 anuncios en un parque de viviendas de 1.696.</p>
-
+<p>Donostia es con diferencia la ciudad de Euskadi que más anuncios de Airbnb tiene. En septiembre de 2018 hemos contabilizado [ver metodología] 1.378 activos, frente a los aproximadamente 1.000 en Bilbao y 200 en Vitoria.
 
 <figure>
     
-        <img src="../../images/donostia.airbnb.anuncios.barrios.ratio.barras.2017.2018.png" alt="Cantidad de alojamientos de Airbnb en barrios de Donostia. Evolución 2017-2018" />
+        <img src="../../images/donostia/n-anuncios-airbnb-barrios-donostia-201809.png" alt="Cantidad de alojamientos de Airbnb en barrios de Donostia. Evolución 2017-2018" />
     
     
     <figcaption>
         <h4>Cantidad de alojamientos de Airbnb en barrios de Donostia. Evolución 2017-2018</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+<p>En cantidad, los barrios de Centro y Gros tienen 857 anuncios, lo que supone el 62% del total de anuncios de Airbnb la ciudad.</p>
+
+<h3 id="anuncios-por-viviendas-existente">Anuncios por viviendas existente</h3>
+
+<p>Para estudiar cómo se distribuye la oferta de Airbnb en la ciudad vamos a analizarla en relación al total de viviendas por cada barrio. En vez de mostrar y representar los números totales de anuncios de Airbnb por barrio <strong>mostramos los valores relativos respecto el total de viviendas</strong>. Esto nos permite comparar barrios de distintas características y densidad de vivienda. <strong>Usaremos el ratio de número de anuncios activos de Airbnb respecto a 100 viviendas.</strong>
+
+<figure>
+    
+        <img src="../../images/donostia/ratio-airbnb-barrios-donostia-201809.png" alt="Ratio de alojamientos de Airbnb por cadda 100 viviendas en barrios de Donostia. Septiembre 2018" />
+    
+    
+    <figcaption>
+        <h4>Ratio de alojamientos de Airbnb por cadda 100 viviendas en barrios de Donostia. Septiembre 2018</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+<p>Los barrios de Igeldo, Centro, Ategorrieta-Ulia, Miramon-Zorroaga y Gros, que tienen ratios por encima de 3, son los más altos de todo Euskadi. También destaca Antiguo con un ratio en torno al 2.</p>
+
+<p>La gráfica que mejor cuenta esta relación es la siguiente, donde se puede ver como algunos barrios con ratios altos, tienen en números totales pocos anuncios de Airbnb.</p>
+
+
+<figure>
+    
+        <img src="../../images/donostia/barras-mariposa-n-y-ratio-airbnb-barrios-donostia-201819.png" alt="Alojamientos de Airbnb por vivienda en barrios de Donostia. Septiembre 2018" />
+    
+    
+    <figcaption>
+        <h4>Alojamientos de Airbnb por vivienda en barrios de Donostia.. Septiembre 2018</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h4 id="cartograma">Cartograma</h4>
+
+
+<figure>
+    
+        <img src="../../images/donostia/airbnb.donostia.cartograma.viviendas.201809.png" alt="Alojamientos de Airbnb por vivienda en barrios de Donostia. Septiembre 2018" />
+    
+    
+    <figcaption>
+        <h4>Alojamientos de Airbnb por vivienda en barrios de Donostia. Septiembre 2018</h4>
         
     </figcaption>
     
@@ -1140,6 +1213,22 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -1470,8 +1559,12 @@
         
 
 
-	 
-	 
+        
+            <a class="nav nav-prev" href="../../donostia/ordenanza-municipal-airbnb/" title="VUT registradas en la Ordenanza municipal vs. anuncios en Airbnb"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="../../donostia/airbnb-viviendas-habitaciones/" title="Tipo de anuncios Airbnb: viviendas vs. habitaciones" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
     </div>
 
     </section>
@@ -1479,20 +1572,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1542882599"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1542882599"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1542882599"></script>
-    <script src="../../js/jquery.sticky.js?1542882599"></script>
-    <script src="../../js/featherlight.min.js?1542882599"></script>
-    <script src="../../js/html5shiv-printshiv.min.js?1542882599"></script>
-    <script src="../../js/highlight.pack.js?1542882599"></script>
+    <script src="../../js/clipboard.min.js?1544057903"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1544057903"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1544057903"></script>
+    <script src="../../js/jquery.sticky.js?1544057903"></script>
+    <script src="../../js/featherlight.min.js?1544057903"></script>
+    <script src="../../js/html5shiv-printshiv.min.js?1544057903"></script>
+    <script src="../../js/highlight.pack.js?1544057903"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom.71422.js?1542882599"></script>
-    <script src="../../js/learn.js?1542882599"></script>
-    <script src="../../js/hugo-learn.js?1542882599"></script>
+    <script src="../../js/modernizr.custom.71422.js?1544057903"></script>
+    <script src="../../js/learn.js?1544057903"></script>
+    <script src="../../js/hugo-learn.js?1544057903"></script>
 
-    <link href="../../mermaid/mermaid.css?1542882599" type="text/css" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1542882599"></script>
+    <link href="../../mermaid/mermaid.css?1544057903" type="text/css" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1544057903"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

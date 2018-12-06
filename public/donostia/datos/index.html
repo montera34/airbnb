@@ -2,8 +2,8 @@
 <html lang="es" class="js csstransforms3d">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.40.1" />
     <meta name="description" content="Los datos de la turistificación">
 <meta name="author" content="Montera34">
 
@@ -11,24 +11,24 @@
 <link rel="icon" sizes="256x256" href="../../images/favicon.png" type="image/x-icon" />
 
     <title>Los datos :: Efecto Airbnb</title>
-
     
-    <link href="../../css/nucleus.css?1542882599" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1542882599" rel="stylesheet">
-    <link href="../../css/hybrid.css?1542882599" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1542882599" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1542882599" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1542882599" rel="stylesheet">
-    <link href="../../css/theme.css?1542882599" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1542882599" rel="stylesheet">
     
-      <link href="../../css/theme-eamadrid.css?1542882599" rel="stylesheet">
+    <link href="../../css/nucleus.css?1544057903" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css?1544057903" rel="stylesheet">
+    <link href="../../css/hybrid.css?1544057903" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1544057903" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1544057903" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1544057903" rel="stylesheet">
+    <link href="../../css/theme.css?1544057903" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1544057903" rel="stylesheet">
+    
+      <link href="../../css/theme-eamadrid.css?1544057903" rel="stylesheet">
     
 
-    <script src="../../js/jquery-2.x.min.js?1542882599"></script>
-
+    <script src="../../js/jquery-2.x.min.js?1544057903"></script>
+    
     <style type="text/css">
-      :root #header + #content > #left > #rlblock_left{
+      :root #header + #content > #left > #rlblock_left{ 
           display:none !important;
       }
       
@@ -244,6 +244,25 @@
  
   
     
+      <li data-nav-id="/donostia/estacionalidad/" title="Estacionalidad" class="dd-item ">
+        <a href="../../donostia/estacionalidad/">
+        Estacionalidad
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
       <li data-nav-id="/donostia/ordenanza-2018/" title="Ordenanza municipal reguladora del uso de la vivienda turística" class="dd-item ">
         <a href="../../donostia/ordenanza-2018/">
         Ordenanza municipal 2018
@@ -303,7 +322,7 @@
     
       <li data-nav-id="/donostia/airbnb-alojamientos-barrio/" title="Presencia de Airbnb por barrio" class="dd-item ">
         <a href="../../donostia/airbnb-alojamientos-barrio/">
-        Análisis por barrios
+        Airbnb por barrios
         
         </a>
     </li>
@@ -820,15 +839,13 @@
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
                         <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
+                          <i class="fa fa-bars"></i>
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
                   
                   <span class="links">
-                 
-                 
                     
           
           
@@ -846,8 +863,7 @@
           
          
           
-        
-                 
+           
                   </span>
                 </div>
                 
@@ -884,6 +900,11 @@
 
 <p>Este informe esta basado en diferentes bases de datos para ayudar a entender el tema de las viviendas turísticas en Donostia - San Sebastián. Las bases de datos oficiales provienen del Ayuntamiento de Donostia y del Instituto Nacional de Estadística. Para los datos de Airbnb, que no están disponibles para descarga, se ha recurrido a diversas fuentes que capturan datos con diferentes técnicas de <a href="https://es.wikipedia.org/wiki/Web_scraping">web-scraping</a>. Se usan también datos del portal inmobiliario Idealista para analizar la oferta de alquiler residencial no turístico.</p>
 
+<ul>
+<li><a href="#datos-de-airbnb">Scraping Airbnb</a></li>
+<li><a href="#datos-oficiales-de-viviendas-de-uso-turístico-vut">Viviendas de uso turístico (VUT). Ayuntamiento</a></li>
+</ul>
+
 <h2 id="datos-de-airbnb">Datos de Airbnb</h2>
 
 <p>Para este informe se han usado datos de la plataforma <a href="https://datahippo.org">Data Hippo</a>. Para anteriores versiones de este informe hemos desarrollado los análisis en base a los datos de la web <a href="http://insideairbnb.com">InsideAirbnb</a>.</p>
@@ -907,9 +928,64 @@
 </figure>
 
 
-<p>**DataHippo es un proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico, como Airbnb o HomeAway y obtiene los datos con diferentes técnicas de <a href="https://es.wikipedia.org/wiki/Web_scraping">web-scraping</a>, compartiéndolos en abierto, con el objetivo de facilitar el análisis y debate sobre este fenómeno. El proyecto nace en el verano de 2017 en Donostia, en el SummerLab organizado por Hirikilabs y Tabakalera y como iniciativa de Montera34 y <a href="http://saigesp.es">Santiago Espinosa</a>.</p>
+<p><strong>DataHippo</strong> es un proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico, como Airbnb o HomeAway y obtiene los datos con diferentes técnicas de <a href="https://es.wikipedia.org/wiki/Web_scraping">web-scraping</a>, compartiéndolos en abierto, con el objetivo de facilitar el análisis y debate sobre este fenómeno. El proyecto nace en el verano de 2017 en Donostia, en el SummerLab organizado por Hirikilabs y Tabakalera y como iniciativa de Montera34 y <a href="http://saigesp.es">Santiago Espinosa</a>.</p>
 
-<p>Los datos de Airbnb de 2017 provienen de InsideAirbnb.</p>
+<p>Los datos de Airbnb de 2017 provienen de <strong>InsideAirbnb</strong>.</p>
+
+<p>El número de cada mes es el resultado de calcular el número de anucios activos en ese mes. <a href="../../metodologia/anuncios-activos/">Ver metodología</a> en la que se explica en detalle qué consideramos activos: los anuncios que han tenido actividad el mes en curso o anterior o que tienen fechas disponibles para ser alquilados.</p>
+
+<div class="ea-cols">
+
+
+
+
+
+
+<div class='ea-col ea-col-lg-6 ea-col-md-12 ea-col-sm-12 ea-col-xs-12'>
+<table>
+<thead>
+<tr>
+<th>Fecha</th>
+<th align="right">Junio 2018</th>
+<th align="right">Sept. 2018</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Habitaciones compartidas</td>
+<td align="right">7</td>
+<td align="right">3</td>
+</tr>
+
+<tr>
+<td>Habitaciones privadas</td>
+<td align="right">358</td>
+<td align="right">367</td>
+</tr>
+
+<tr>
+<td>Viviendas</td>
+<td align="right">1.066</td>
+<td align="right">1.008</td>
+</tr>
+
+<tr>
+<td>Total</td>
+<td align="right">1.431</td>
+<td align="right">1.378</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: datahippo.org y scraping posterior.</p>
+
+</div>
+
+
+</div>
+<div style="clear: both;"></div>
+
 
 <h2 id="datos-oficiales-de-viviendas-de-uso-turístico-vut">Datos oficiales de Viviendas de uso turístico (VUT)</h2>
 
@@ -917,6 +993,14 @@
 
 <p>VUT registradas en el censo municipal de Donostia, tras la aplicación de la ordenanza de viviendas turísticas de marzo de 2018.</p>
 
+<div class="ea-cols">
+
+
+
+
+
+
+<div class='ea-col ea-col-lg-6 ea-col-md-12 ea-col-sm-12 ea-col-xs-12'>
 <table>
 <thead>
 <tr>
@@ -948,6 +1032,13 @@
 </table>
 
 <p>Fuente: Ayuntamiento de Donostia</p>
+
+</div>
+
+
+</div>
+<div style="clear: both;"></div>
+
 
 <h2 id="acceso-a-los-datos">Acceso a los datos</h2>
 
@@ -1251,69 +1342,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
             
             
@@ -1342,6 +1370,8 @@
                 
 
                     
+                    
+                        
                     
                     
 
@@ -1374,9 +1404,6 @@
                     
                     
 
-                    
-            
-        
                     
             
         
@@ -1442,6 +1469,86 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1502,8 +1609,12 @@
         
 
 
-	 
-	 
+        
+            <a class="nav nav-prev" href="../../donostia/informe/" title="¿De dónde sale este informe?"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="../../donostia/estacionalidad/" title="Estacionalidad" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
     </div>
 
     </section>
@@ -1511,20 +1622,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1542882599"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1542882599"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1542882599"></script>
-    <script src="../../js/jquery.sticky.js?1542882599"></script>
-    <script src="../../js/featherlight.min.js?1542882599"></script>
-    <script src="../../js/html5shiv-printshiv.min.js?1542882599"></script>
-    <script src="../../js/highlight.pack.js?1542882599"></script>
+    <script src="../../js/clipboard.min.js?1544057903"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1544057903"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1544057903"></script>
+    <script src="../../js/jquery.sticky.js?1544057903"></script>
+    <script src="../../js/featherlight.min.js?1544057903"></script>
+    <script src="../../js/html5shiv-printshiv.min.js?1544057903"></script>
+    <script src="../../js/highlight.pack.js?1544057903"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom.71422.js?1542882599"></script>
-    <script src="../../js/learn.js?1542882599"></script>
-    <script src="../../js/hugo-learn.js?1542882599"></script>
+    <script src="../../js/modernizr.custom.71422.js?1544057903"></script>
+    <script src="../../js/learn.js?1544057903"></script>
+    <script src="../../js/hugo-learn.js?1544057903"></script>
 
-    <link href="../../mermaid/mermaid.css?1542882599" type="text/css" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1542882599"></script>
+    <link href="../../mermaid/mermaid.css?1544057903" type="text/css" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1544057903"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
