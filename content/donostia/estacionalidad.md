@@ -8,25 +8,27 @@ draft: false
 
 Los anuncios disponibles o activos en Airbnb tienen, como otras cuestiones relacionadas con el turismo, una estacionalidad muy marcada en muchas ciudades. En Donostia es conocida esta cuestión desde el siglo pasado, cuando los veraneantes se instalaban allí para pasar los meses de estío. Parece que sigue siendo práctica habitual que los pisos alquilados a estudiantes sean "desalojados" en verano por quincenas o meses para los veraneantes.
 
-En anteriores informes hemos analizado la situación de Airbnb en la ciudad sin tener en cuenta esta estacionalidad tan marcada. Para analizarla hemos utilizado las evaluaciones (*reviews* en la terminología de Airbnb en inglés) que dejan los usuarios tras completar una estancia. No todos dejan este comentario y valoración tras acabar una estancia ([ver en la sección metodología cómo se usan valores entre 30 y 72 por ciento](/metodologia/anuncios-activos/)) pero en cualquier caso sí que sirven como estimación de la cantidad de alquileres y alojamientos activos. Hemos usado los datos de las evaluaciones de InsideAirbnb de abril de 2017 para hacer estos análisis.
+En anteriores informes hemos analizado la situación de Airbnb en la ciudad sin tener en cuenta esta estacionalidad. Para analizarla hemos utilizado las evaluaciones (*reviews* en la terminología de Airbnb en inglés) que dejan los usuarios tras completar una estancia. Una evaluación es un comentario público que envía un usuario sobre el alojamiento en el que ha estado. No todos los usuarios dejan esta evaluación y valoración tras acabar una estancia ([ver en la sección metodología cómo se usan valores entre 30 y 72 por ciento](/metodologia/anuncios-activos/)) pero sí que nos sirven como estimación de la cantidad de alquileres y alojamientos activos. Hemos usado los datos de las evaluaciones de InsideAirbnb de abril de 2018 y varias fechas en 2018 para hacer estos análisis.
 
 ### Cada punto es una evaluación a un anuncio de Airbnb en Donostia
 
-{{< figure src="/images/donostia/airbnb-reviews-donostia-2012-2017-b.png" alt="Reviews de Airbnb en Donostia 2012-2016." title="Reviews de Airbnb en Donostia 2012-2016." >}}
+{{< figure src="/images/donostia/airbnb-reviews-donostia-2012-201811_g.png" alt="Reviews de Airbnb en Donostia 2012-2016." title="Reviews de Airbnb en Donostia 2012-2016." >}}
 
-Cada punto del anterior gráfico representa una evaluación tras una estancia. Se aprecia como el pico de evaluaciones, y por tanto de alquileres y alojamientos activos, se produce en Agosto. En los siguientes histograma que acumula varios años lo veremos más claro todavía.
+Cada punto del anterior gráfico representa una evaluación tras una estancia. Se aprecia cómo hay mayor densidad de puntos, esto es, mayor número de evaluaciones, y por tanto de alquileres y alojamientos activos, en torno a los meses de verano. En los siguientes histograma que acumulan varios años lo veremos más claro todavía.
 
 ### Un pico en agosto
 
-{{< figure src="/images/donostia/airbnb-reviews-por-mes-stacked-donostia-2013-2016.png" alt="Reviews de Airbnb por mes en Donostia 2013-2016." title="Reviews de Airbnb por mes en Donostia 2013-2016." >}}
+{{< figure src="/images/donostia/airbnb-reviews-por-mes-stacked-donostia-2011-2018.png" alt="Reviews de Airbnb en Donostia 2013-2018." title="Reviews de Airbnb en Donostia 2013-2018." >}}
 
-{{< figure src="/images/donostia/airbnb-reviews-mes-2011-2017_faceted.png" alt="Reviews de Airbnb por mes en Donostia 2013-2016." title="Reviews de Airbnb por mes en Donostia 2013-2016." >}}
+{{< figure src="/images/donostia/airbnb-reviews-mes-2011-2017_faceted.png" alt="Reviews de Airbnb por mes en Donostia 2013-2018." title="Reviews de Airbnb por mes en Donostia 2013-2018." >}}
 
 En todos ellos se repite el mismo patrón en el que agosto es el mes con más evaluaciones seguidos de julio y septiembre. Si contamos ahora la cantidad de anuncios a los que pertenecen esas evaluaciones, podemos obtener los alojamientos que han obtenido como mínimo una evaluación en cada mes, esto es, que estuvieron de alguna forma activos. En el siguiente gráfico se representan estos alojamientos según su tipo (piso completo, habitación privada o compartida):
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2017_rooom-type_bar.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." >}}
 
-Si tenemos en cuenta, como hemos indicado antes, que no todos los usuarios deja su evaluación, podemos estimar, usando el 30% como valor los anuncios que habrían estado activos (pero sin recibir evaluación). La línea de puntos indica esa estimación:
+{{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2018_rooom-type_bar.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2018." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2018." >}}
+
+Si tenemos en cuenta, como hemos indicado antes, que no todos los usuarios deja su evaluación al terminar una estancia, podemos estimar, usando el 30% como el porcentaje de usuarios que dejan evaluación, el número de anuncios que habrían tenido al menos una estancia (aunque no hubieran recibido evaluación). La línea de puntos indica esa estimación:
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2017_rooom-type_line_calculated.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." >}}
 

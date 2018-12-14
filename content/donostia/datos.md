@@ -5,12 +5,14 @@ weight: 2
 draft: false
 ---
 
-Este informe esta basado en diferentes bases de datos para ayudar a entender el tema de las viviendas turísticas en Donostia - San Sebastián. Las bases de datos oficiales provienen del Ayuntamiento de Donostia y del Instituto Nacional de Estadística. Para los datos de Airbnb, que no están disponibles para descarga, se ha recurrido a diversas fuentes que capturan datos con diferentes técnicas de [web-scraping](https://es.wikipedia.org/wiki/Web_scraping). Se usan también datos del portal inmobiliario Idealista para analizar la oferta de alquiler residencial no turístico.
+Este informe esta basado en diferentes bases de datos para ayudar a entender el tema de las viviendas turísticas en Donostia - San Sebastián. Las bases de datos oficiales provienen del Ayuntamiento de Donostia y del Instituto Nacional de Estadística. Para los datos de Airbnb, que no esta plataforma no hace públicos, se ha recurrido a diversas fuentes que capturan datos con diferentes técnicas de [web-scraping](https://es.wikipedia.org/wiki/Web_scraping). Se usan también datos del portal inmobiliario Idealista para analizar la oferta de alquiler residencial no turístico.
 
 + [Scraping Airbnb](#datos-de-airbnb)
 + [Viviendas de uso turístico (VUT). Ayuntamiento](#datos-oficiales-de-viviendas-de-uso-turístico-vut)
 
-## Datos de Airbnb
+## Datos de Airbnb "not found"
+
+Los anuncios de Airbnb son accesibles en su web, pero no es posible descargar toda la oferta para su análisis. Para poder estudiar esos datos hay que recurrir a técnicas de [web-scraping](https://es.wikipedia.org/wiki/Web_scraping). 
 
 Para este informe se han usado datos de la plataforma [Data Hippo](https://datahippo.org). Para anteriores versiones de este informe hemos desarrollado los análisis en base a los datos de la web [InsideAirbnb](http://insideairbnb.com).
 
@@ -18,7 +20,7 @@ Para este informe se han usado datos de la plataforma [Data Hippo](https://datah
 
 **DataHippo** es un proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico, como Airbnb o HomeAway y obtiene los datos con diferentes técnicas de [web-scraping](https://es.wikipedia.org/wiki/Web_scraping), compartiéndolos en abierto, con el objetivo de facilitar el análisis y debate sobre este fenómeno. El proyecto nace en el verano de 2017 en Donostia, en el SummerLab organizado por Hirikilabs y Tabakalera y como iniciativa de Montera34 y [Santiago Espinosa](http://saigesp.es).
 
-Los datos de Airbnb de 2017 provienen de **InsideAirbnb**. 
+Los datos de Airbnb de 2017 provienen de **InsideAirbnb** (revisar si vamos a usar los de InsideAirbnb para este informe).
 
 El número de cada mes es el resultado de calcular el número de anucios activos en ese mes. [Ver metodología](/metodologia/anuncios-activos/) en la que se explica en detalle qué consideramos activos: los anuncios que han tenido actividad el mes en curso o anterior o que tienen fechas disponibles para ser alquilados.
 
