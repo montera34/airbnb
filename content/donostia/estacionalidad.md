@@ -16,19 +16,29 @@ En anteriores informes hemos analizado la situación de Airbnb en la ciudad sin 
 
 Cada punto del anterior gráfico representa una evaluación tras una estancia. Se aprecia cómo hay mayor densidad de puntos, esto es, mayor número de evaluaciones, y por tanto de alquileres y alojamientos activos, en torno a los meses de verano. En los siguientes histograma que acumulan varios años lo veremos más claro todavía.
 
-### Un pico en agosto
+### El verano es la temporada alta
 
 {{< figure src="/images/donostia/airbnb-reviews-por-mes-stacked-donostia-2011-2018.png" alt="Reviews de Airbnb en Donostia 2013-2018." title="Reviews de Airbnb en Donostia 2013-2018." >}}
 
-{{< figure src="/images/donostia/airbnb-reviews-mes-2011-2017_faceted.png" alt="Reviews de Airbnb por mes en Donostia 2013-2018." title="Reviews de Airbnb por mes en Donostia 2013-2018." >}}
+{{< figure src="/images/donostia/airbnb-reviews-mes-2013-2018_faceted-year.png" alt="Reviews de Airbnb por mes en Donostia 2013-2018." title="Reviews de Airbnb por mes en Donostia 2013-2018." >}}
 
-En todos ellos se repite el mismo patrón en el que agosto es el mes con más evaluaciones seguidos de julio y septiembre. Si contamos ahora la cantidad de anuncios a los que pertenecen esas evaluaciones, podemos obtener los alojamientos que han obtenido como mínimo una evaluación en cada mes, esto es, que estuvieron de alguna forma activos. En el siguiente gráfico se representan estos alojamientos según su tipo (piso completo, habitación privada o compartida):
+En todos ellos se repite el mismo patrón: agosto es el mes con más evaluaciones seguidos de julio y luego de septiembre. 
 
-{{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2017_rooom-type_bar.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." >}}
+Nota: los datos de las reviews de InsideAirbnb están sesgados en el sentido de que solamente contienen datos de las evaluaciones de los anuncios que en el momento del *scraping* estaban existente. La captura de las evaluaciones se hace a partir de los anuncios encontrados en ese momento, esto es, no se guardan las evaluaciones que sí han existido pero que pertecen a pisos no están en la plataforma. Por eso usamos para este análisis los 7 archivos de 7 fechas diferentes de InsideAirbnb (2018-11-26, 2018-10-20, 2018-09-27, 2018-08-28, 2018-07-31, 2018-04-21 y 2017-03-00), eliminando convenientemente las *reviews* duplicadas, para reducir el sesgo que supone la pérdida de datos de los pisos no encontrados.
+
+Si vemos el mismo gráfico que antes pero coloreando las reviews según cuándo fueron *scrapeadas*:
+
+{{< figure src="/images/donostia/airbnb-reviews-mes-2013-2018_faceted-year_color-scrapdate.png" alt="Reviews de Airbnb por mes en Donostia 2013-2018." title="El color indica la fecha de captura del dato de la review" >}}
+
+Vemos, por ejemplo, que hay una buena parte de las *reviews* de verano de 2016 que no habrían sido capturadas si no fuera por el scraping de marzo de 2017. Es lícito pensar que dada la ausencia de una captura de datos periódica y la volatilidad de los anuncios en Airbnb, estos cálculos resulten conservadores respecto del verdadero número de evaluaciones realizadas. Así que tomaremos estos datos como base de las estimaciones más estrictas.
+
+### Anuncios que tuvieron evaluaciones
+
+Conocer la cantidad de evaluaciones por mes nos permie calcular el número de anuncios a los que pertenecen. De este modo obtenemos los alojamientos que tuvieron una al menos evaluación, esto es, que tuvieron como mínimo una estancia ese mes. En el siguiente gráfico se representan estos alojamientos según su tipo (piso completo, habitación privada o compartida):
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2018_rooom-type_bar.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2018." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2018." >}}
 
-Si tenemos en cuenta, como hemos indicado antes, que no todos los usuarios deja su evaluación al terminar una estancia, podemos estimar, usando el 30% como el porcentaje de usuarios que dejan evaluación, el número de anuncios que habrían tenido al menos una estancia (aunque no hubieran recibido evaluación). La línea de puntos indica esa estimación:
+Si tenemos en cuenta, como hemos indicado antes, que no todos los usuarios deja una evaluación al terminar una estancia, podemos estimar, usando el 30% como el porcentaje de usuarios que dejan evaluación, el número de anuncios *total* que habrían tenido al menos una estancia (aunque no hubieran recibido evaluación). La línea de puntos indica esa estimación basada en eñ 30%:
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2017_rooom-type_line_calculated.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." >}}
 
@@ -36,7 +46,17 @@ Este resultado se ajusta bastante bien a al análisis de anuncios activos que re
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2017_rooom-type_line_calculated_vs_airdna.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." >}}
 
-Nota: los datos de las reviews de InsideAirbnb están sesgados en el sentido de que solamente contienen datos de las evaluaciones de los anuncios que en el momento del scraping estaban existente.
+Si en vez de hacer la estimación basada en el 30% usamos un intervalo que va del 30 al 70 por ciento, obtenemos unas "zonas" en torno a las cuales se moverán las cifras de los alojamientos turísticos disponibles y activos cada mes.
+
+
+{{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2018_rooom-type_line_calculated_vs_airdna_area.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." >}}
+
+Si admás introducimos en el gráfico los valores de las diferentes bases de datos que manejamos vemos cómo se parecen unos y otros y nos permiten evaluar la estimación:
+
+{{< figure src="/images/donostia/airbnb-listings-donostia-with-review-by-room-type_calculated-review-based_airdna_source-points.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." >}}
+
+
+
 
 
 ## Comparación con Bilbao
