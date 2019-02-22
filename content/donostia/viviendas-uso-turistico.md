@@ -76,6 +76,10 @@ En este cartograma cada barrio está representado por un cuadrado: su área repr
 
 {{% figure src="/images/donostia.ratio.vut.201809.png" alt="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en barrios de Donostia. Septiembre 2018" title="Cartograma de ratio de viviendas de uso turístico por cada 100 viviendas residenciales en barrios de Donostia. Septiembre 2018" caption="Ratio de viviendas de uso turístico por cada 100 viviendas residenciales en barrios de Donostia. Septiembre 2018." %}}
 
+<div style="position: relative; height: 400px; overflow: hidden;">
+  <iframe src="/cartogram/index_vut201809.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="viviendas de uso turístico por cada 100 viviendas en barrios de Donostia. Septiembre 2018"></iframe>
+</div>
+
 ## Viviendas de uso turístico por tipo (habitación o apartamento) y barrio
 
 Las habitaciones suponen un 10% del total de las Viviendas de uso turístico tramitadas o en trámite. Si miramos por barrios vemos que son el 9% de la oferta de anuncios en el barrio de Centro y el 6% en Gros y Antiguo.
