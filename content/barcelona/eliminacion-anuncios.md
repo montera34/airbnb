@@ -53,6 +53,9 @@ Con los datos de la diferencia vemos mediante el comportamiento de cuantos pisos
 
 Para la visualización de datos geográficos se usa Qgis con el plugin “qgis2web”.
 
+
+<iframe height="600" width="600" src="file:///home/numeroteca/sites/airbnb/static/web-eliminados-barcelona/index.html"></iframe>
+
 [insertar iframe o imagen al mapa].
 
 ## Datos usados

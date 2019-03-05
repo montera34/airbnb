@@ -38,7 +38,7 @@ Conocer la cantidad de evaluaciones por mes nos permie calcular el número de an
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2018_rooom-type_bar.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2018." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2018." >}}
 
-Si tenemos en cuenta, como hemos indicado antes, que no todos los usuarios deja una evaluación al terminar una estancia, podemos estimar, usando el 30% como el porcentaje de usuarios que dejan evaluación, el número de anuncios *total* que habrían tenido al menos una estancia (aunque no hubieran recibido evaluación). La línea de puntos indica esa estimación basada en eñ 30%:
+Si tenemos en cuenta, como hemos indicado antes, que no todos los usuarios deja una evaluación al terminar una estancia, podemos estimar, usando el 30% como el porcentaje de usuarios que dejan evaluación, el número de anuncios *total* que habrían tenido al menos una estancia (aunque no hubieran recibido evaluación). La línea de puntos indica esa estimación basada en el 30%:
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2017_rooom-type_line_calculated.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017." >}}
 
@@ -51,18 +51,13 @@ Si en vez de hacer la estimación basada en el 30% usamos un intervalo que va de
 
 {{< figure src="/images/donostia/airbnb-listings-insideairbnb-donostia-with-review-mes-2011-2018_rooom-type_line_calculated_vs_airdna_area.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." >}}
 
-Si admás introducimos en el gráfico los valores de las diferentes bases de datos que manejamos vemos cómo se parecen unos y otros y nos permiten evaluar la estimación:
+Si además introducimos en el gráfico los valores de las diferentes bases de datos que manejamos vemos cómo se parecen unos y otros y nos permiten evaluar la estimación:
 
 {{< figure src="/images/donostia/airbnb-listings-donostia-with-review-by-room-type_calculated-review-based_airdna_source-points.png" alt="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." title="Anuncios con reviews de Airbnb por mes en Donostia 2011-2017 vs Anuncios Activos de Airdna." >}}
-
-
-
-
 
 ## Comparación con Bilbao
 
 Para comparar mostramos el mismo gráfico anterior para la ciudad de Bilbao: la estacionalidad no está tan marcada, aunque el pico de alojamientos con evaluaciones sigue teniendo el pico en agosto (ojo, las escalas verticales de ambos son diferentes, Bilbao tiene la mitad de anuncios aproximadamente):
-
 
 {{< cols >}}
 {{% col md="6" %}}

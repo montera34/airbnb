@@ -28,7 +28,7 @@ La gráfica que mejor cuenta esta relación es la siguiente, donde se puede ver 
 
 #### Cartograma
 
-{{< figure src="/images/donostia/airbnb.donostia.cartograma.viviendas.201809.png" alt="Alojamientos de Airbnb por vivienda en barrios de Donostia. Septiembre 2018" title="Alojamientos de Airbnb por vivienda en barrios de Donostia. Septiembre 2018" >}}
+{{< figure src="/images/donostia/airbnb.donostia.cartograma.viviendas.201809.png" alt="Alojamientos de Airbnb por vivienda en barrios de Donostia. Septiembre 2018" title="Alojamientos de Airbnb por vivienda en barrios de Donostia. Septiembre 2018">}} 
 
 ## Plazas ofertadas en Airbnb por barrio
 

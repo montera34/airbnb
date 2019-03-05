@@ -14,7 +14,7 @@ Este informe esta basado en diferentes bases de datos para ayudar a entender el 
 
 Los anuncios de Airbnb son accesibles en su web, pero no es posible descargar toda la oferta para su análisis. Para poder estudiar esos datos hay que recurrir a técnicas de [web-scraping](https://es.wikipedia.org/wiki/Web_scraping). 
 
-Para este informe se han usado datos de la plataforma [Data Hippo](https://datahippo.org). Para anteriores versiones de este informe hemos desarrollado los análisis en base a los datos de la web [InsideAirbnb](http://insideairbnb.com).
+Para este informe se han usado datos de los proyectos de scraping de [Data Hippo](https://datahippo.org) y [InsideAirbnb](http://insideairbnb.com).
 
 {{% figure src="/images/datahippo.imago.png" alt="Datahippo. Proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico" title="DataHippo. Proyecto colaborativo para ofrecer datos de diferentes plataformas de alquiler turístico" link="https://datahippo.org" caption="Pincha en la imagen para visitar la plataforma DataHippo." %}}
 
