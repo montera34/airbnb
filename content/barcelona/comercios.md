@@ -1,6 +1,6 @@
 ---
 title: "¿Cuál es la composición de comercios en algunos barrios de Barcelona?"
-menuTitle: "El informe"
+menuTitle: "Comercios"
 date : 2018-10-09T11:01:11+02:00
 weight: 3
 draft: false

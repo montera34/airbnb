@@ -1,6 +1,6 @@
 ---
 title: "¿Se eliminaron más anuncios de AirBnB desde el pacto entre la plataforma y el ayuntamiento de Mayo de 2018?"
-menuTitle: "El informe"
+menuTitle: "¿Se retiraron anuncios?"
 date : 2018-10-09T11:01:11+02:00
 weight: 3
 draft: false
@@ -17,21 +17,16 @@ Unas cuantas noticias de referencia:
 + RTVE: [Airbnb elimina este verano más de 3.000 pisos turísticos ilegales en Barcelona a petición del Ayuntamiento](http://www.rtve.es/noticias/20180902/airbnb-elimina-este-verano-mas-3000-pisos-turisticos-ilegales-barcelona-peticion-del-ayuntamiento/1790241.shtml)
 + Hostel Sur: [Airbnb dará datos de los anfitriones al Ayuntamiento de Barcelona](https://www.hosteltur.com/128348_airbnb-dara-datos-anfitriones-al-ayuntamiento-barcelona.html)
 
-En el gráfico de numero de anuncios por mes se puede apreciar un descenso fuera de lo habitual entre el mes de mayo y junio de 2018 [pasar a gráfico de barras]. 
+En el gráfico de numero de anuncios por mes se puede apreciar un descenso fuera de lo habitual entre el mes de mayo y junio de 2018. 
 
 {{< figure src="/images/barcelona/linea-numero-anuncios-barcelona-airbnb.png" alt="Número de anuncios de Airbnb (2017-septiembre 2018)" title="Número de anuncios de Airbnb (2017-septiembre 2018)" >}}
-
-Si vemos solamente los anuncios de pisos completos el descenso es más _____.
-
-[hacer gráfico]
-
-Es conveniente señalar que los datos con los qu
+{{< figure src="/images/barcelona/anuncios-por-mes.png" alt="Número de anuncios por mes" title="Número de anuncios por mes" >}}
 
 ## ¿Qué anuncios se eliminan cada mes?
 
-A partir de los anuncios publicados en Airbnb (llamados _listings_ en la terminología de Airbnb), disponibles en las diferentes bases de datos de los _scrapings_ de InsideAirbnb, hemos comparado mes a mes el número de anuncios nuevos y el de eliminados. Comparamos mediante el identificador único (id) si un anuncio que aparece en un determinado mes está diponible en el siguiente o no. Si no lo está se considera que se ha elminado. 
+A partir de los anuncios publicados en Airbnb (llamados _listings_ en la terminología de Airbnb), disponibles en las diferentes bases de datos de los _scrapings_ de InsideAirbnb, hemos comparado base de datos a base de datos el número de anuncios nuevos y el de eliminados. Comparamos mediante el identificador único (id) si un anuncio que aparece en un determinado mes está diponible en el siguiente o no. Si no lo está se considera que se ha elminado. 
 
-NOTA: Para ser más precisos, no podemos hablar estrictamente de eliminados, sino de anuncios despublicados o no encontrados, ya que con los datos de los que disponemos no se puede tener la certeza de que se hayan eliminado. Las razones pueden se varias para no encontrarlo: bien porque se ha dado de baja; porque el anuncio está pausado (el anfitrión lo ha quitado por alguna razón); está alquilado durante un largo periodo y por eso no aparece en las búsquedas; o bien porque el _scraper_ no lo ha encontrado. Se puede hablar de "desaparecidos", siguiendo la terminología de Victoria Oliveres [catalunyaplural meter link](en este artículo que investiga sobre el tema).
+NOTA: Para ser más precisos, no podemos hablar estrictamente de eliminados, sino de anuncios despublicados o no encontrados, ya que con los datos de los que disponemos no se puede tener la certeza de que se hayan eliminado. Las razones pueden se varias para no encontrarlo: bien porque se ha dado de baja; porque el anuncio está pausado (el anfitrión lo ha quitado por alguna razón); está alquilado durante un largo periodo y por eso no aparece en las búsquedas; o bien porque el _scraper_ no lo ha encontrado. Se puede hablar de "desaparecidos", siguiendo la terminología de Victòria Oliveres [en este artículo](http://catalunyaplural.cat/es/la-oferta-de-airbnb-se-recupero-en-tres-meses-del-cierre-de-2-500-pisos-ilegales-en-barcelona/).
 
 Hemos calculado cuántos anuncios hay respecto el mes anterior desde enero de 2017 a septiembre de 2018. Así ponemos en contexto si realmente en junio de 2018 se eliminaron más pisos que en los otros meses.
 
@@ -41,19 +36,27 @@ Parece que desaparecieron más anuncios en junio de 2018 que en ningún otro mes
 
 ### Total de anuncios
 
+{{< figure src="/images/barcelona/anuncios-por-mes.png" alt="Número de anuncios por mes" title="Número de anuncios por mes" >}}
 
+### Según tipo de alojamiento
+
+{{< figure src="/images/barcelona/anuncios-por-mes-room-type.png" alt="Número de anuncios por tipo de alojamiento" title="Número de anuncios por tipo de alojamiento" >}}
 
 ### Según tipo de _host_
 
 Si analizamos quién gestiona esos anuncios eliminados (de mayo a junio de 2018) vemos que existe una relación 40% [revisar porcentaje] de anuncios de _hosts_ que tienen uno solo y 60% de multigestores. Se comprueba con este gráfico que es o no una anomalía en la serie:
 
 [hace falta gráfico de barras de anuncios eliminados por mes con % de tipo de host y otro con room type]
+{{< figure src="/images/barcelona/anuncios-por-mes-host-type.png" alt="Número de anuncios por tipo de host" title="Número de anuncios por tipo de host" >}}
 
 {{< figure src="/images/barcelona/anuncios-borrados-junio2018-por-tipo-de-host.png" alt="Número de anuncios borrados en junio de 2018 según tipo de host en junio 2018" title="Número de anuncios borrados en junio de 2018 según tipo de host en junio 2018" >}}
  
-### Según tipo de habitación
 
-¿son diferentes los anuncios desparecidos respecto de otros meses
+### Según tipo de alojamiento y host
+	
+{{< figure src="/images/barcelona/anuncios-por-mes-host-room-type.png" alt="Número de anuncios por tipo de alojamiento y usuario" title="Número de anuncios por tipo de alojamiento" >}}
+
+{{< figure src="/images/barcelona/anuncios-por-mes-room-host-type.png" alt="Número de anuncios por tipo de usuario y alojamiento" title="Número de anuncios por tipo de alojamiento" >}}
 
 ## Balance mensual
 
@@ -64,6 +67,10 @@ Miramos ahora el balance mensual, la diferencia entre anuncios nuevos y anuncios
 Para comprobar la estacionalidad de los anuncios creados y eliminados calculamos el porcentaje de ellos que hay disponibles un mes después (los scrapings de InsideAirbnb están separados aproximadamente por un mes). El 37% de los pisos anunciados por primera vez en agosto de 2017 se borraron, ya no estaban disponibles, un mes después. [comprobar si es esa cifra, parece que el script habla de agosto 2017 - rehacer gráfico para solamente pisos completos].
 
 Con los datos de la diferencia vemos mediante el comportamiento de cuántos pisos existen mes a mes en Airbnb desde 2017 hasta septiembre 2018. Hay un pico que marca un mínimo en el mes de junio.
+
+---
+
+{{< figure src="/images/barcelona/lineas-coincidencias-barcelona-insideairbnb-03-normalizad-pisos-completos.png" alt="Anuncios de pisos completos coincidentes" title="Anuncios de pisos completos coincidentes" >}}
 
 ### Para seguir investigando
 
