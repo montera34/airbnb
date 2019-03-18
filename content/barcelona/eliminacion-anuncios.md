@@ -1,6 +1,6 @@
 ---
 title: "¿Se eliminaron más anuncios de AirBnB desde el pacto entre la plataforma y el ayuntamiento de Mayo de 2018?"
-menuTitle: "¿Se retiraron anuncios?"
+menuTitle: "C. ¿Se retiraron anuncios?"
 date : 2018-10-09T11:01:11+02:00
 weight: 3
 draft: false

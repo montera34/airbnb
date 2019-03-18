@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Barcelona on Efecto Airbnb</title>
+    <link>/airbnb/barcelona/</link>
+    <description>Recent content in Barcelona on Efecto Airbnb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 08 Oct 2018 10:42:22 +0200</lastBuildDate>
+    
+	<atom:link href="/airbnb/barcelona/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¿De dónde sale este informe?</title>
+      <link>/airbnb/barcelona/informe/</link>
+      <pubDate>Mon, 08 Oct 2018 12:43:23 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/informe/</guid>
+      <description>Este informe surge ante la falta de transparencia de los datos Airbnb, la plataforma de alquiler de vivienda turística más popular. Ante esa opacidad ofrecemos abrir los datos que hemos conseguido obtener, documentar metodologías de análisis en abierto y crear visualizaciones para entender la situación actual. Además hemos realizado este análisis colaborativamente en forma de taller.
+[atualizar con imagen de Barcelona] El informe Este informe es el resultado de Ciencia Participativa: Taller de datos sobre alojamientos turísticos en Barcelona, realizdo en Fàbrica de Creació Fabra i Coats, Barcelona los dáis 28 y 29 de octubre de 2018.</description>
+    </item>
+    
+    <item>
+      <title>Estacionalidad</title>
+      <link>/airbnb/barcelona/estacionalidad/</link>
+      <pubDate>Wed, 05 Dec 2018 13:37:01 +0000</pubDate>
+      
+      <guid>/airbnb/barcelona/estacionalidad/</guid>
+      <description>Los anuncios disponibles o activos en Airbnb suelen tener, como otras cuestiones relacionadas con el turismo, una estacionalidad muy marcada. Para analizarla hemos utilizado los comentarios o evaluaciones (reviews en la terminología de Airbnb en inglés) que dejan los usuarios tras completar una estancia. Una evaluación es un comentario público que envía un usuario sobre el alojamiento en el que ha estado. No todos los usuarios dejan esta evaluación y valoración tras acabar una estancia (ver en la sección metodología cómo se usan valores entre 30 y 72 por ciento) pero sí que nos sirven como estimación de la cantidad de alquileres y alojamientos activos.</description>
+    </item>
+    
+    <item>
+      <title>¿Cuál es la composición de comercios en algunos barrios de Barcelona?</title>
+      <link>/airbnb/barcelona/comercios/</link>
+      <pubDate>Tue, 09 Oct 2018 11:01:11 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/comercios/</guid>
+      <description>Nota: este es uno de los ejericios realizados durante el taller. Equipo: Raul,
+¿Cuál es la composición de comercios en algunos barrios de Barcelona?
+Introducción La pregunta original de este grupo era si la oferta de alojamientos de Airbnb afecta al tipo de comercio que hay en el barrio. Ante la dificultad de establecer una causalidad entre ambos fenómenos se ha procedido a realizar un estudio comparativo de una serie de barrios según su comercio.</description>
+    </item>
+    
+    <item>
+      <title>¿Es realmente Airbnb una plataforma colaborativa?</title>
+      <link>/airbnb/barcelona/es-airbnb-colaborativa/</link>
+      <pubDate>Tue, 09 Oct 2018 11:01:11 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/es-airbnb-colaborativa/</guid>
+      <description>Nota: este es uno de los ejericios realizados durante el taller. Equipo: Alba Alsina, Aleix Arcarons, Asier Eguilaz, Mikel Pau Casado, Josep Maria Solé.
+** ¿Es realmente Airbnb una plataforma colaborativa? **
+Introducción La pregunta parte de la voluntad de contrastar una intuición: Airbnb tiende a convertirse en una plataforma cada vez más profesionalizada donde la presencia propietario particular que alquila una de las habitaciones de su vivienda, de manera esporádica, para incrementar su renta mensual tiende a ser menos relevante.</description>
+    </item>
+    
+    <item>
+      <title>¿Se eliminaron más anuncios de AirBnB desde el pacto entre la plataforma y el ayuntamiento de Mayo de 2018?</title>
+      <link>/airbnb/barcelona/eliminacion-anuncios/</link>
+      <pubDate>Tue, 09 Oct 2018 11:01:11 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/eliminacion-anuncios/</guid>
+      <description>Nota: este es uno de los ejericios realizados durante el taller. Equipo: Pablo, Pau, Francisco, Victòria.
+En una reunión a finales de mayo de 2018 entre el Ayuntamiento de Barcelona y Airbnb, la empresa se comprometió a retirar 2.577 anuncios de pisos ilegales que había denunciado el Ayuntamiento. Aseguraron que a partir del 1 de junio ya no estarían publicados en su página web. ¿Cumplieron?
+Unas cuantas noticias de referencia:</description>
+    </item>
+    
+  </channel>
+</rss>

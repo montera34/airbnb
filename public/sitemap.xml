@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>/airbnb/barcelona/informe/</loc>
+    <lastmod>2019-03-05T01:43:12+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/airbnb/pamplona/hoteles-hostales-albergues-campings/distribucion-espacial/</loc>
     <lastmod>2018-10-29T17:03:57+01:00</lastmod>
   </url>
@@ -34,7 +39,7 @@
   
   <url>
     <loc>/airbnb/donostia/informe/</loc>
-    <lastmod>2018-07-13T15:36:35+02:00</lastmod>
+    <lastmod>2018-12-14T18:11:32+01:00</lastmod>
   </url>
   
   <url>
@@ -54,7 +59,7 @@
   
   <url>
     <loc>/airbnb/donostia/datos/</loc>
-    <lastmod>2018-12-03T15:46:07+01:00</lastmod>
+    <lastmod>2019-03-05T12:45:10+01:00</lastmod>
   </url>
   
   <url>
@@ -63,8 +68,28 @@
   </url>
   
   <url>
+    <loc>/airbnb/barcelona/estacionalidad/</loc>
+    <lastmod>2019-03-10T20:04:54+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/airbnb/donostia/estacionalidad/</loc>
-    <lastmod>2018-12-05T13:37:01+00:00</lastmod>
+    <lastmod>2019-03-05T12:45:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/barcelona/comercios/</loc>
+    <lastmod>2019-03-18T17:20:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/barcelona/es-airbnb-colaborativa/</loc>
+    <lastmod>2019-03-18T17:20:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/airbnb/barcelona/eliminacion-anuncios/</loc>
+    <lastmod>2019-03-18T17:20:45+01:00</lastmod>
   </url>
   
   <url>
@@ -79,7 +104,7 @@
   
   <url>
     <loc>/airbnb/donostia/viviendas-uso-turistico/</loc>
-    <lastmod>2018-12-04T03:12:48+01:00</lastmod>
+    <lastmod>2019-02-22T01:11:17+01:00</lastmod>
   </url>
   
   <url>
@@ -109,7 +134,7 @@
   
   <url>
     <loc>/airbnb/donostia/airbnb-alojamientos-barrio/</loc>
-    <lastmod>2018-12-04T03:12:48+01:00</lastmod>
+    <lastmod>2019-03-05T12:45:10+01:00</lastmod>
   </url>
   
   <url>
@@ -138,8 +163,13 @@
   </url>
   
   <url>
+    <loc>/airbnb/barcelona/</loc>
+    <lastmod>2019-03-05T01:43:12+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/airbnb/donostia/</loc>
-    <lastmod>2018-11-21T14:21:41+01:00</lastmod>
+    <lastmod>2018-12-14T18:11:32+01:00</lastmod>
   </url>
   
   <url>
@@ -164,7 +194,7 @@
   
   <url>
     <loc>/airbnb/</loc>
-    <lastmod>2018-11-18T17:16:21+01:00</lastmod>
+    <lastmod>2018-11-19T13:14:34+01:00</lastmod>
   </url>
   
   <url>

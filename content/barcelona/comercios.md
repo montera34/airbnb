@@ -1,6 +1,6 @@
 ---
 title: "¿Cuál es la composición de comercios en algunos barrios de Barcelona?"
-menuTitle: "Comercios"
+menuTitle: "A. Comercios"
 date : 2018-10-09T11:01:11+02:00
 weight: 3
 draft: false
@@ -9,9 +9,7 @@ draft: false
 Nota: este es uno de los ejericios realizados durante el taller. 
 Equipo: Raul, 
 
-**
-¿Cuál es la composición de comercios en algunos barrios de Barcelona?
-**
+**¿Cuál es la composición de comercios en algunos barrios de Barcelona?**
 
 ## Introducción
 
@@ -48,15 +46,16 @@ Además hemos utilizado los datos del padrón de habitantes de Barcelona por bar
 
 <iframe title="Gráfico: Comercios por cada 10.000 habitantes" aria-describedby="En 4 barrios de Barcelona (2016). " src="//datawrapper.dwcdn.net/YDwm9/4/" scrolling="no" frameborder="0" width="600" height="493"></iframe>
 
-
 Visualizar los tipos de comercios por número de habitantes en cada barrio nos permite comparar su oferta comercial. Observamos que en los barrios menos turísticos, como puede ser el caso de Canyelles, hay más carnicerías (13 comercios por cada 10.000 habitantes) y tiendas de frutas y verduras (7,2), comercios típicos “de barrio” que en otros como Dreta de l’Eixample (6,4 y 6,2) o Poblenou (7,7 y 6,2). Lo que destaca fuertemente en Dreta de l’Eixample son las tiendas de ropa (101,6 por cada 10.000 habitantes), los servicios de alojamiento (30) y las tiendas de souvenirs (6,9). 
 
 ### Locales vacíos
 
-| | Canyelles | el Poblenou | la Dreta de l'Eixample | la Marina del Prat Vermell |
+
+| barrios | Canyelles | el Poblenou | la Dreta de l'Eixample | la Marina del Prat Vermell |
+| ----: |---:|-----:|-----:|---:|
 | % locales vacíos | 11,3% | 2,8% | 3,6% | 21,7% |
-| Locales vacíos por cada 10.000 habitantes | 23,1 | 14,9 | 
-35,9 | 418,8 |
+| Locales vacíos por cada 10.000 habitantes | 23,1 | 14,9 | 35,9 | 418,8 |
+
 
 Podemos ver además cómo en el barrio de la Marina del Prat Vell hay más locales vacíos por habitante (418,8 por cada 10.000) que en ningún otro barrio, con valores mínimos en Poblenou (14,9) y Canyelles (23,1) seguido por Dreta de l’Eixample (35,9). Pero aquí son más relevantes los datos de porcentaje de comercio vacío (que cuenta los locales en venta y/o que se ofrecen en alquiler) respecto del total de locales en planta baja: lidera Canyelles con el 21,7%, seguido por Canyelles 11,3% y muy parejos la dreta del Éixample (3,6) y el Poblenou (2,8).
 

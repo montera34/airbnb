@@ -8,7 +8,8 @@ draft: false
 
 Este informe surge ante la falta de transparencia de los datos Airbnb, la plataforma de alquiler de vivienda turística más popular. Ante esa opacidad ofrecemos abrir los datos que hemos conseguido obtener, documentar metodologías de análisis en abierto y crear visualizaciones para entender la situación actual. Además hemos realizado este análisis colaborativamente en forma de taller.
 
-![Taller Efecto Airbnb](/images/efecto.airbnb.taller.jpg)
+[atualizar con imagen de Barcelona]
+![Taller Efecto Airbnb](https://lab.montera34.com/airbnb/images/1809_efecto-airbnb-barcelona.png)
 
 
 ## El informe
@@ -23,7 +24,7 @@ Durante el taller se formaron los siguientes grupos de tabajo:
 
 + [¿Se eliminaron más anuncios de AirBnB desde el pacto entre la plataforma y el ayuntamiento de Mayo de 2018?](barcelona/eliminacion-anuncios)
 + [¿Cual es la composición de comercios en algunos barrios de Barcelona?](barcelona/comercios)
-+ [¿Es realmente Airbnb una plataforma colaborativa?](barcelona/oferta-colaborativa)
++ [¿Es realmente Airbnb una plataforma colaborativa?](barcelona/es-airbnb-colaborativa)
 
 ### Otros temas analizados
 
@@ -31,6 +32,7 @@ El informe se ha completado con otras secciones para complementar la informació
 
 + Concentración de alojamientos en usuarios
 + Estacionalidad
++ Evolución de la presencia de Airbnb
 
 ### Participantes
 

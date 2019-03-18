@@ -1,13 +1,13 @@
 ---
 title: "¿Es realmente Airbnb una plataforma colaborativa?"
-menuTitle: "¿Es Airbnb colaborativa?"
+menuTitle: "B. ¿Es Airbnb colaborativa?"
 date : 2018-10-09T11:01:11+02:00
 weight: 3
 draft: false
 ---
 
 Nota: este es uno de los ejericios realizados durante el taller. 
-Equipo:Alba Alsina, Aleix Arcarons, Asier Eguilaz, Mikel Pau Casado, Josep Maria Solé.
+Equipo: Alba Alsina, Aleix Arcarons, Asier Eguilaz, Mikel Pau Casado, Josep Maria Solé.
 
 **
 ¿Es realmente Airbnb una plataforma colaborativa?
@@ -21,8 +21,8 @@ La pregunta parte de la voluntad de contrastar una intuición: Airbnb tiende a c
 
 En este sentido, en primer lugar hemos analizado cómo se autodefine la plataforma Airbnb para ver cuáles son los valores que describen. En el texto, hemos marcado en rojo las expresiones que tienden a expresar un conflicto con los intereses de la administración, en naranja aquellas partes del texto que hacen referencia al beneficio de ingresos complementarios y, por último, en verde, aquellos valores que se juzgan como positivos.
 
-{{< figure src="/images/barcelona/airbnb-colaborativo-analisis_1.png" alt="" title="" >}}
 {{< figure src="/images/barcelona/airbnb-colaborativo-analisis_2.png" alt="" title="" >}}
+{{< figure src="/images/barcelona/airbnb-colaborativo-analisis_1.png" alt="" title="" >}}
 
 Para ello, hemos partido de una primera intención de explorar si existía una caracterización distintiva entre las habitaciones y las viviendas enteras en función de si éstas pertenecían a un único propietario o si, al contrario, varias propiedades pertenecían a un único propietario. En este sentido, asumíamos -con el riesgo que esto puede suponer- que las habitaciones de un único propietario podrían representar aquella tipología más cercana al espíritu de economía colaborativa con la que se presentaba inicialmente la Plataforma.
 

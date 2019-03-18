@@ -6,7 +6,7 @@
     <description>Recent content on Efecto Airbnb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 18 Nov 2018 17:16:21 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 10:36:28 +0100</lastBuildDate>
     
 	<atom:link href="/airbnb/index.xml" rel="self" type="application/rss+xml" />
     
@@ -39,6 +39,16 @@ El objetivo de los talleres Efecto Airbnb es aprender a usar herramientas de obt
       
       <guid>/airbnb/pamplona/alojamientos-airbnb-anfitrion/distribucion-espacial/</guid>
       <description>Distribución espacial de alojamientos de los 10 anfitriones con más plazas  Ver el mapa interactivo a pantalla completa.</description>
+    </item>
+    
+    <item>
+      <title>¿De dónde sale este informe?</title>
+      <link>/airbnb/barcelona/informe/</link>
+      <pubDate>Mon, 08 Oct 2018 12:43:23 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/informe/</guid>
+      <description>Este informe surge ante la falta de transparencia de los datos Airbnb, la plataforma de alquiler de vivienda turística más popular. Ante esa opacidad ofrecemos abrir los datos que hemos conseguido obtener, documentar metodologías de análisis en abierto y crear visualizaciones para entender la situación actual. Además hemos realizado este análisis colaborativamente en forma de taller.
+[atualizar con imagen de Barcelona] El informe Este informe es el resultado de Ciencia Participativa: Taller de datos sobre alojamientos turísticos en Barcelona, realizdo en Fàbrica de Creació Fabra i Coats, Barcelona los dáis 28 y 29 de octubre de 2018.</description>
     </item>
     
     <item>
@@ -75,7 +85,8 @@ El taller estuvo coordinado por Montera34, usando una metodología que permite a
       <pubDate>Mon, 09 Jul 2018 10:06:03 +0200</pubDate>
       
       <guid>/airbnb/donostia/informe/</guid>
-      <description>La primera versión de este informe se publicó con los análisis producidos colaborativamente durante el taller Maps&amp;amp;data: El efecto Airbnb en datos en abril de 2017. La segunda versión se produjo en julio de 2017, tras dos días de trabajo en el encuentro Summerlab&amp;rsquo;17 organizado en Donostia por Hirikilabs. Durante estos días se trabajó una base de datos más completa, actualizando las visualizaciones de la primera versión, y añadiendo nuevos análisis.</description>
+      <description>Este informe surge ante la falta de transparencia de los datos Airbnb, la plataforma de alquiler de vivienda turística más popular. Ante esa opacidad ofrecemos abrir los datos que hemos conseguido obtener, documentar metodologías de análisis en abierto y crear visualizaciones para entender la situación actual. Además queremos hacer este análisis colaborativamente en formato taller.
+Los informes anteriores La primera versión de este informe se publicó con los análisis producidos colaborativamente durante el taller Maps&amp;amp;data: El efecto Airbnb en datos en abril de 2017.</description>
     </item>
     
     <item>
@@ -115,7 +126,7 @@ cada 100 viviendas   1 Centro-Donostia Donostia / San Sebastián 862 13905 6,20 
       <pubDate>Fri, 13 Jul 2018 09:57:44 +0200</pubDate>
       
       <guid>/airbnb/donostia/datos/</guid>
-      <description>Este informe esta basado en diferentes bases de datos para ayudar a entender el tema de las viviendas turísticas en Donostia - San Sebastián. Las bases de datos oficiales provienen del Ayuntamiento de Donostia y del Instituto Nacional de Estadística. Para los datos de Airbnb, que no están disponibles para descarga, se ha recurrido a diversas fuentes que capturan datos con diferentes técnicas de web-scraping. Se usan también datos del portal inmobiliario Idealista para analizar la oferta de alquiler residencial no turístico.</description>
+      <description>Este informe esta basado en diferentes bases de datos para ayudar a entender el tema de las viviendas turísticas en Donostia - San Sebastián. Las bases de datos oficiales provienen del Ayuntamiento de Donostia y del Instituto Nacional de Estadística. Para los datos de Airbnb, que no esta plataforma no hace públicos, se ha recurrido a diversas fuentes que capturan datos con diferentes técnicas de web-scraping. Se usan también datos del portal inmobiliario Idealista para analizar la oferta de alquiler residencial no turístico.</description>
     </item>
     
     <item>
@@ -130,12 +141,54 @@ cada 100 viviendas   1 Centro-Donostia Donostia / San Sebastián 862 13905 6,20 
     
     <item>
       <title>Estacionalidad</title>
+      <link>/airbnb/barcelona/estacionalidad/</link>
+      <pubDate>Wed, 05 Dec 2018 13:37:01 +0000</pubDate>
+      
+      <guid>/airbnb/barcelona/estacionalidad/</guid>
+      <description>Los anuncios disponibles o activos en Airbnb suelen tener, como otras cuestiones relacionadas con el turismo, una estacionalidad muy marcada. Para analizarla hemos utilizado los comentarios o evaluaciones (reviews en la terminología de Airbnb en inglés) que dejan los usuarios tras completar una estancia. Una evaluación es un comentario público que envía un usuario sobre el alojamiento en el que ha estado. No todos los usuarios dejan esta evaluación y valoración tras acabar una estancia (ver en la sección metodología cómo se usan valores entre 30 y 72 por ciento) pero sí que nos sirven como estimación de la cantidad de alquileres y alojamientos activos.</description>
+    </item>
+    
+    <item>
+      <title>Estacionalidad</title>
       <link>/airbnb/donostia/estacionalidad/</link>
       <pubDate>Wed, 05 Dec 2018 13:37:01 +0000</pubDate>
       
       <guid>/airbnb/donostia/estacionalidad/</guid>
       <description>Los anuncios disponibles o activos en Airbnb tienen, como otras cuestiones relacionadas con el turismo, una estacionalidad muy marcada en muchas ciudades. En Donostia es conocida esta cuestión desde el siglo pasado, cuando los veraneantes se instalaban allí para pasar los meses de estío. Parece que sigue siendo práctica habitual que los pisos alquilados a estudiantes sean &amp;ldquo;desalojados&amp;rdquo; en verano por quincenas o meses para los veraneantes.
-En anteriores informes hemos analizado la situación de Airbnb en la ciudad sin tener en cuenta esta estacionalidad tan marcada.</description>
+En anteriores informes hemos analizado la situación de Airbnb en la ciudad sin tener en cuenta esta estacionalidad.</description>
+    </item>
+    
+    <item>
+      <title>¿Cuál es la composición de comercios en algunos barrios de Barcelona?</title>
+      <link>/airbnb/barcelona/comercios/</link>
+      <pubDate>Tue, 09 Oct 2018 11:01:11 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/comercios/</guid>
+      <description>Nota: este es uno de los ejericios realizados durante el taller. Equipo: Raul,
+¿Cuál es la composición de comercios en algunos barrios de Barcelona?
+Introducción La pregunta original de este grupo era si la oferta de alojamientos de Airbnb afecta al tipo de comercio que hay en el barrio. Ante la dificultad de establecer una causalidad entre ambos fenómenos se ha procedido a realizar un estudio comparativo de una serie de barrios según su comercio.</description>
+    </item>
+    
+    <item>
+      <title>¿Es realmente Airbnb una plataforma colaborativa?</title>
+      <link>/airbnb/barcelona/es-airbnb-colaborativa/</link>
+      <pubDate>Tue, 09 Oct 2018 11:01:11 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/es-airbnb-colaborativa/</guid>
+      <description>Nota: este es uno de los ejericios realizados durante el taller. Equipo: Alba Alsina, Aleix Arcarons, Asier Eguilaz, Mikel Pau Casado, Josep Maria Solé.
+** ¿Es realmente Airbnb una plataforma colaborativa? **
+Introducción La pregunta parte de la voluntad de contrastar una intuición: Airbnb tiende a convertirse en una plataforma cada vez más profesionalizada donde la presencia propietario particular que alquila una de las habitaciones de su vivienda, de manera esporádica, para incrementar su renta mensual tiende a ser menos relevante.</description>
+    </item>
+    
+    <item>
+      <title>¿Se eliminaron más anuncios de AirBnB desde el pacto entre la plataforma y el ayuntamiento de Mayo de 2018?</title>
+      <link>/airbnb/barcelona/eliminacion-anuncios/</link>
+      <pubDate>Tue, 09 Oct 2018 11:01:11 +0200</pubDate>
+      
+      <guid>/airbnb/barcelona/eliminacion-anuncios/</guid>
+      <description>Nota: este es uno de los ejericios realizados durante el taller. Equipo: Pablo, Pau, Francisco, Victòria.
+En una reunión a finales de mayo de 2018 entre el Ayuntamiento de Barcelona y Airbnb, la empresa se comprometió a retirar 2.577 anuncios de pisos ilegales que había denunciado el Ayuntamiento. Aseguraron que a partir del 1 de junio ya no estarían publicados en su página web. ¿Cumplieron?
+Unas cuantas noticias de referencia:</description>
     </item>
     
     <item>
@@ -145,7 +198,7 @@ En anteriores informes hemos analizado la situación de Airbnb en la ciudad sin 
       
       <guid>/airbnb/donostia/ordenanza-2018/</guid>
       <description>Recientemente se ha aprobado la nueva ordenanza municipal &amp;ldquo;reguladora del uso de vivienda turística y de alquiler de habitaciones en vivienda habitual para uso turístico&amp;rdquo; publicada el 26 marzo 2018. En el momento actual se encuentra en trámite de aplicación, por lo que no es posible medir su impacto en el terreno todavía en su totalidad. Sin embargo, es importante entender cómo intenta regular la vivienda turística.
-   Ordenanza municipal de vivienda turística para Donostia, 2018  Pinchar en la imagen para descargar los planos de la ordenanza en PDF.</description>
+ Ordenanza municipal de vivienda turística para Donostia, 2018Pinchar en la imagen para descargar los planos de la ordenanza en PDF.</description>
     </item>
     
     <item>

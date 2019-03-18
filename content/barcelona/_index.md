@@ -8,7 +8,7 @@ pre = ""
 
 # Efecto Airnbnb en Barcelona
 
-![Ciencia Participativa: Taller de datos sobre alojamientos turísticos en Barcelona](/images/efecto.airbnb.donostia.png)
+![Ciencia Participativa: Taller de datos sobre alojamientos turísticos en Barcelona](https://lab.montera34.com/airbnb/images/1809_efecto-airbnb-barcelona.png)
 
 Este informe sobre los alojamientos turístios en Barcelona es una iniciativa conjunta de <a href="https://montera34.com">Montera34</a> y el [Laboratori d'Innovació Democrática](https://ajuntament.barcelona.cat/innovaciodemocratica/ca/projectes/laboratori-dinnovacio-democratica) del Ayuntamiento de Barcelona
 
