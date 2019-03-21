@@ -11,7 +11,7 @@ Equipo: Pablo, Pau, Francisco, Victòria.
 
 **En una reunión a finales de mayo de 2018 entre el Ayuntamiento de Barcelona y Airbnb, la empresa se comprometió a retirar 2.577 anuncios de pisos ilegales que había denunciado el Ayuntamiento. Aseguraron que a partir del 1 de junio ya no estarían publicados en su página web. ¿Cumplieron?**
 
-Unas cuantas noticias de referencia:
+Unos cuantos artículos de referencia sobre esta noticia:
 
 + La Vanguardia: [Barcelona y Airbnb se dan una tregua con la retirada de 2.577 anuncios ilegales](https://www.lavanguardia.com/local/barcelona/20180529/443933421052/ayuntamiento-tregua-airbnb-retirada-anuncios-pisos-ilegales.html)
 + RTVE: [Airbnb elimina este verano más de 3.000 pisos turísticos ilegales en Barcelona a petición del Ayuntamiento](http://www.rtve.es/noticias/20180902/airbnb-elimina-este-verano-mas-3000-pisos-turisticos-ilegales-barcelona-peticion-del-ayuntamiento/1790241.shtml)
@@ -22,9 +22,9 @@ En el gráfico de numero de anuncios por mes se puede apreciar un descenso fuera
 {{< figure src="/images/barcelona/linea-numero-anuncios-barcelona-airbnb.png" alt="Número de anuncios de Airbnb (2017-septiembre 2018)" title="Número de anuncios de Airbnb (2017-septiembre 2018)" >}}
 {{< figure src="/images/barcelona/anuncios-por-mes.png" alt="Número de anuncios por mes" title="Número de anuncios por mes" >}}
 
-## ¿Qué anuncios se eliminan cada mes?
+## ¿Cuántos anuncios se eliminan cada mes?
 
-A partir de los anuncios publicados en Airbnb (llamados _listings_ en la terminología de Airbnb), disponibles en las diferentes bases de datos de los _scrapings_ de InsideAirbnb, hemos comparado base de datos a base de datos el número de anuncios nuevos y el de eliminados. Comparamos mediante el identificador único (id) si un anuncio que aparece en un determinado mes está diponible en el siguiente o no. Si no lo está se considera que se ha elminado. 
+A partir de los anuncios publicados en Airbnb (llamados _listings_ en la terminología de Airbnb), disponibles en las diferentes bases de datos de los _scrapings_ de InsideAirbnb, hemos comparado mes a mes el número de anuncios nuevos y el de eliminados. Comparamos mediante el identificador único (id) si un anuncio que aparece en un determinado mes está diponible en el siguiente o se ha eliminado. 
 
 NOTA: Para ser más precisos, no podemos hablar estrictamente de eliminados, sino de anuncios despublicados o no encontrados, ya que con los datos de los que disponemos no se puede tener la certeza de que se hayan eliminado. Las razones pueden se varias para no encontrarlo: bien porque se ha dado de baja; porque el anuncio está pausado (el anfitrión lo ha quitado por alguna razón); está alquilado durante un largo periodo y por eso no aparece en las búsquedas; o bien porque el _scraper_ no lo ha encontrado. Se puede hablar de "desaparecidos", siguiendo la terminología de Victòria Oliveres [en este artículo](http://catalunyaplural.cat/es/la-oferta-de-airbnb-se-recupero-en-tres-meses-del-cierre-de-2-500-pisos-ilegales-en-barcelona/).
 
